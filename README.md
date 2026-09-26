@@ -12,7 +12,7 @@ Not sure which? Apple menu → **About This Mac**: "Chip: Apple M…" is Apple S
 "Processor: … Intel" is Intel. macOS 12 or later. No account needed.
 
 **Or install with one line**, with no disk image and no Open Anyway step. Handy on a
-Mac that won't open disk images, such as some work Macs. Open **Terminal** (in
+Mac that won't open disk images. Open **Terminal** (in
 Applications → Utilities), paste this line and press Return:
 
 ```
@@ -22,8 +22,7 @@ curl -fsSL https://github.com/BansalAakash/sticker-foundry-releases/releases/lat
 It picks the download for your Mac's chip, puts Sticker Foundry in the **Applications
 folder inside your home folder** (no admin password needed), and opens it. Allow
 **Bluetooth** when it asks, and you're done: skip the steps below. You can
-[read what it does](install.sh) first. It doesn't get past rules set by a company's IT:
-if a work Mac only allows approved apps, ask IT.
+[read what it does](install.sh) first.
 
 **New to Sticker Foundry?** [The complete guide](GUIDE.md) covers everything, from the
 first setup to a busy day at the booth, with a [troubleshooting](GUIDE.md#15-troubleshooting)

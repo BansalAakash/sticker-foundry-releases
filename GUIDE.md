@@ -97,9 +97,9 @@ Follow the steps on the [download page](README.md#install-once-per-mac). In shor
 
 ### Or: install with one line
 
-No disk image, and no Open Anyway step. Use this on a Mac that won't open disk images
-(some work Macs don't), or just because it's quicker. Open **Terminal** (Applications →
-Utilities), paste this line and press Return:
+No disk image, and no Open Anyway step. Use it on a Mac that won't open disk images, or
+just because it's quicker. Open **Terminal** (Applications → Utilities), paste this line
+and press Return:
 
 ```
 curl -fsSL https://github.com/BansalAakash/sticker-foundry-releases/releases/latest/download/install.sh | bash
@@ -111,9 +111,6 @@ it. It needs no admin password. Allow **Bluetooth** when it asks, and that's all
 
 To open it later, use Spotlight (⌘ Space, type *Sticker Foundry*) or, in Finder,
 **Go** → **Home** → **Applications**.
-
-It doesn't get past anything a company's IT has set up. If a work Mac only allows
-approved apps, or blocks Bluetooth for apps, only IT can allow it.
 
 ### Once it's installed
 
@@ -651,7 +648,7 @@ starts a second copy.
 | "another program is using port 8080" | Something else is using the console's address, often an old copy of Sticker Foundry. Quit it (or restart the Mac), then open Sticker Foundry again. |
 | "Sticker Foundry stopped because of a problem" | Send the newest file from the logs folder it names (see [section 16](#17-quitting-updating-resetting-and-getting-help)). |
 | The console page doesn't open | Open Sticker Foundry again: it brings the page back. Or go to http://localhost:8080. |
-| The disk image won't open, or you're not allowed to add apps to Applications (common on work Macs) | Use the [one-line install](#or-install-with-one-line) instead. It needs no disk image and no admin password. |
+| The disk image won't open, or you're not allowed to add apps to Applications | Use the [one-line install](#or-install-with-one-line) instead. It needs no disk image and no admin password. |
 | The one-line install says "Sticker Foundry is open" | Press **Quit** at the top right of the console, then run the line again. |
 | The one-line install says it "could not download" or the download "is damaged" | Check the internet connection and run the line again. |
 | You can't find the app after the one-line install | It's in the Applications folder inside your home folder: in Finder, **Go** → **Home** → **Applications**. Or use Spotlight. |
