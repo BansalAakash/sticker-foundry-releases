@@ -24,6 +24,8 @@ your first event; keep the rest for when you need it.
 16. [Questions people ask](#16-questions-people-ask)
 17. [Quitting, updating, resetting and getting help](#17-quitting-updating-resetting-and-getting-help)
 18. [Words used in this guide](#18-words-used-in-this-guide)
+19. [Photo prints](#19-photo-prints)
+20. [The day report](#20-the-day-report)
 
 ---
 
@@ -711,6 +713,18 @@ starts a second copy.
 | **The booth console has stopped working** | Press **Quit**, then open Sticker Foundry again. |
 | The page looks frozen or out of date | If a banner says **Not connected to the booth server**, open Sticker Foundry again. |
 | Printing stopped while the Mac was idle | The Mac went to sleep. Wake it; keep it plugged in with the lid open. |
+| **Update now** says a printer is printing | Wait for it to finish (or pause the queue and let it finish), then press **Update now** again. |
+| After **Update now**, the console didn't come back | Open Sticker Foundry from Applications. What happened is in the logs folder, in `sticker-foundry-update.log`. |
+| **Email logs** opened my email app, not Mail | Mail isn't set up on this Mac, or macOS said no. Drag the zip Finder is showing into the email. |
+
+### Photo prints
+
+| Problem | Fix |
+|---|---|
+| Photos wait and nothing prints | No printer is set to photo paper. On **Photo prints**, press **Use for photos** on a printer with photo paper in it. |
+| A photo is in `photos/check` | The console lost track of it while it printed. Look at what came out; drop it in again only if it didn't print. |
+| A file went to `photos/errored` | It isn't a picture Sticker Foundry can read. The note beside it says why. Save it as JPEG or PNG and drop it in again. |
+| Sticker jobs stopped after I switched a printer to photos | Every printer is on photo paper. Switch one back with **Back to stickers**. |
 
 ---
 
@@ -725,6 +739,17 @@ to download it and, on the day, for guests printing from their phones.
 **Can I install it without the disk image?**
 Yes: the [one-line install](#or-install-with-one-line) in Terminal. It picks the right
 chip for you and skips the Open Anyway step. Running the same line again updates it.
+
+**Can it print photos?**
+Yes: 4 x 6 inch photos on photo paper, kept apart from the stickers. See
+[section 19](#19-photo-prints).
+
+**Can I see how the day went?**
+Yes: **Day report** at the bottom of the console. See [section 20](#20-the-day-report).
+
+**How do I update it?**
+Press **Update now** when the console says a newer version is out. See
+[section 17](#17-quitting-updating-resetting-and-getting-help).
 
 **Apple Silicon or Intel?**
 Apple menu → **About This Mac**. "Chip: Apple M1" (or M2, M3...) means Apple Silicon.
@@ -858,10 +883,19 @@ close the tab. Never force-quit Sticker Foundry while it's printing.
 **Open it again** from Applications. The queue, sheet counts, booth and settings are all
 remembered.
 
-**Updating.** Download the new version from the same page and drag it into Applications,
-replacing the old one. Your settings, counts and booth are kept. macOS stops a new
-version once, like the first time: press **Done**, then **Open Anyway**. Installed with
-the [one line](#or-install-with-one-line)? Press **Quit**, then run the same line again.
+**Updating.** When a newer version is out, a line at the top of the console says so.
+Wait until nothing is printing, then press **Update now**. Sticker Foundry downloads the
+new version, checks it, quits, puts it in place (the old one goes to the Trash) and opens
+again by itself, usually within half a minute. Your queue, counts, booth and settings are
+kept. macOS may ask you to allow Bluetooth again: press **Allow**. **What's new** lists
+the changes. The version you have is at the bottom of the console.
+
+If **Update now** isn't offered, the line says why: most often Sticker Foundry is running
+straight from the disk image, so drag it into Applications and open it from there. You
+can always update by hand too: download the new version from the same page and drag it
+into Applications, replacing the old one (macOS stops a new version once, like the first
+time: **Done**, then **Open Anyway**). Installed with the
+[one line](#or-install-with-one-line)? Press **Quit**, then run the same line again.
 
 **Reset everything** (at the very bottom of the console) puts Sticker Foundry back to how
 it was on day one: no jobs, no remembered printers, no sheet counts, no booth, no
@@ -869,10 +903,17 @@ settings. It keeps the logs and the Mac's Bluetooth pairings. It asks twice (the
 time you type RESET), and it refuses while a printer is printing. Nothing is deleted:
 everything is moved into folders named `_archive-<date>-reset`.
 
-**Getting help.** At the bottom of the console, press **Download logs**. It saves one zip
-with the last 7 days of what happened on this Mac. Nothing is sent anywhere unless you
-send it. Email it to the address shown next to the button, with what you saw and roughly
-when.
+**Getting help.** At the bottom of the console, press **Email logs**. A new email opens
+in Mail, addressed to the person who looks after Sticker Foundry, with the last 7 days
+of what happened on this Mac attached. Add what you saw and roughly when, then press
+**Send**. Nothing is sent until you do. The first time, macOS asks whether Sticker
+Foundry may use Mail: press **OK**.
+
+Don't use Mail? Your own email app opens instead, and Finder shows the zip: drag it into
+the email. Or press **Download logs** and send the file however you like.
+
+If Sticker Foundry ever stops because of a problem, it says so in a message with an
+**Email logs** button that does the same.
 
 ---
 
@@ -895,3 +936,62 @@ when.
 | **Setup guide** | The step-by-step page that opens the first time, and under **Set up**. |
 | **Sheet** | One 4 x 7 inch sheet of sticker paper: one print. |
 | **Slip** | A paper slip for a guest, with the booth's QR code and a code. |
+| **Photo paper** | 4 x 6 inch paper for photos. A printer switched to it prints only photos. |
+| **Photos folder** | Where you drop pictures to print as photos. |
+
+---
+
+## 19. Photo prints
+
+The printers also print **4 x 6 inch photos** on photo paper. Photos are kept apart from
+the stickers: they have their own folder and their own page, and a printer is either on
+sticker sheets or on photo paper, never both. Nothing about guests, booths or slips
+applies to photos.
+
+**To print photos:**
+
+1. At the bottom of the console, press **Photo prints**.
+2. Pick a printer. Take the sticker sheets out, load **photo paper** (and a ribbon if it
+   needs one), then press **Use for photos** on it and say how many sheets you loaded.
+   That printer stops taking sticker jobs; your other printers keep printing stickers.
+   With only one printer, sticker jobs wait until you switch it back.
+3. Press **Open photos folder** and drop pictures in. They print one after another,
+   oldest first. JPEG, PNG and iPhone HEIC photos all work.
+
+Each photo is turned and cropped to fill the whole sheet, the way photo-printing apps usually
+do: a landscape picture is turned on its side, and anything that doesn't fit 4 x 6 is
+trimmed from the edges. The white strip at each end of the paper tears off.
+
+**The photo page shows** where the folder is, each printer and its paper, and what is
+printing, waiting and done. **Update count** changes a printer's sheet count without
+changing its paper.
+
+**When you're done**, press **Back to stickers**, put the sticker sheets back and say how
+many. The printer rejoins the sticker queue.
+
+**Where photos go** (inside the photos folder):
+
+| Folder | What's in it |
+|---|---|
+| `printed` | Photos that printed. |
+| `check` | Photos the console lost track of while printing. Look at what came out before dropping one in again: it is never printed twice by itself. |
+| `errored` | Files that aren't pictures Sticker Foundry can read, each with a note saying why. |
+
+---
+
+## 20. The day report
+
+Press **Day report** at the bottom of the console for a summary of a day at the booth:
+
+- sticker sheets and photos printed, and where the sticker sheets came from (guests'
+  phones or the incoming folder);
+- when printing started and ended, the busiest hour, and a chart of prints per hour;
+- each printer: stickers, photos, held jobs and stops;
+- what went wrong: held jobs (each counted as having used a sheet, because nobody can
+  tell), printer stops, and files that couldn't be used;
+- jobs removed before printing and held jobs reprinted or discarded.
+
+Pick another day from the list at the top. **Save as PDF** opens the print window, where
+you can save the report as a PDF or print it. The counts come from what the console sent
+and saw finish; the printers report no paper or ribbon levels. Days start from when your
+Mac got version 1.6.0.
