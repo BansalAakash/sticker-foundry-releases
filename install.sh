@@ -9,8 +9,7 @@
 # your settings, counts and booth are kept, because they live outside the app.
 #
 # macOS asks you to press "Open Anyway" only for apps downloaded in a web browser, so
-# this way there is no such step. It does not get past anything your company's IT has
-# set up: if a work Mac only allows approved apps, ask IT.
+# this way there is no such step.
 #
 # Settings, all optional, mostly for testing:
 #   STICKER_FOUNDRY_DIR      where to put the app (default: ~/Applications)
