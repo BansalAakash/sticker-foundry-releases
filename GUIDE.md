@@ -93,6 +93,28 @@ Follow the steps on the [download page](README.md#install-once-per-mac). In shor
    **Privacy & Security** → **Open Anyway**. Once per Mac, and once per new version.
 4. Allow **Bluetooth** when it asks.
 
+### Or: install with one line
+
+No disk image, and no Open Anyway step. Use this on a Mac that won't open disk images
+(some work Macs don't), or just because it's quicker. Open **Terminal** (Applications →
+Utilities), paste this line and press Return:
+
+```
+curl -fsSL https://github.com/BansalAakash/sticker-foundry-releases/releases/latest/download/install.sh | bash
+```
+
+It downloads the right version for your Mac's chip, checks it arrived whole, puts
+**Sticker Foundry** in the **Applications folder inside your home folder**, and opens
+it. It needs no admin password. Allow **Bluetooth** when it asks, and that's all.
+
+To open it later, use Spotlight (⌘ Space, type *Sticker Foundry*) or, in Finder,
+**Go** → **Home** → **Applications**.
+
+It doesn't get past anything a company's IT has set up. If a work Mac only allows
+approved apps, or blocks Bluetooth for apps, only IT can allow it.
+
+### Once it's installed
+
 Sticker Foundry has no window of its own. It opens a page in your web browser at
 **http://localhost:8080**: that page is the **console**, your control panel. There is no
 Dock icon; to bring the page back at any time, open Sticker Foundry again.
@@ -627,6 +649,10 @@ starts a second copy.
 | "another program is using port 8080" | Something else is using the console's address, often an old copy of Sticker Foundry. Quit it (or restart the Mac), then open Sticker Foundry again. |
 | "Sticker Foundry stopped because of a problem" | Send the newest file from the logs folder it names (see [section 16](#17-quitting-updating-resetting-and-getting-help)). |
 | The console page doesn't open | Open Sticker Foundry again: it brings the page back. Or go to http://localhost:8080. |
+| The disk image won't open, or you're not allowed to add apps to Applications (common on work Macs) | Use the [one-line install](#or-install-with-one-line) instead. It needs no disk image and no admin password. |
+| The one-line install says "Sticker Foundry is open" | Press **Quit** at the top right of the console, then run the line again. |
+| The one-line install says it "could not download" or the download "is damaged" | Check the internet connection and run the line again. |
+| You can't find the app after the one-line install | It's in the Applications folder inside your home folder: in Finder, **Go** → **Home** → **Applications**. Or use Spotlight. |
 
 ### Setting up
 
@@ -695,6 +721,10 @@ starts a second copy.
 **Do I need an account to install it?**
 No. Download it from the download page, no sign-in needed. The internet is only needed
 to download it and, on the day, for guests printing from their phones.
+
+**Can I install it without the disk image?**
+Yes: the [one-line install](#or-install-with-one-line) in Terminal. It picks the right
+chip for you and skips the Open Anyway step. Running the same line again updates it.
 
 **Apple Silicon or Intel?**
 Apple menu → **About This Mac**. "Chip: Apple M1" (or M2, M3...) means Apple Silicon.
@@ -830,7 +860,8 @@ remembered.
 
 **Updating.** Download the new version from the same page and drag it into Applications,
 replacing the old one. Your settings, counts and booth are kept. macOS stops a new
-version once, like the first time: press **Done**, then **Open Anyway**.
+version once, like the first time: press **Done**, then **Open Anyway**. Installed with
+the [one line](#or-install-with-one-line)? Press **Quit**, then run the same line again.
 
 **Reset everything** (at the very bottom of the console) puts Sticker Foundry back to how
 it was on day one: no jobs, no remembered printers, no sheet counts, no booth, no

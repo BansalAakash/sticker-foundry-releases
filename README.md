@@ -11,6 +11,20 @@ their phones, or you drop images into a folder.
 Not sure which? Apple menu → **About This Mac**: "Chip: Apple M…" is Apple Silicon;
 "Processor: … Intel" is Intel. macOS 12 or later. No account needed.
 
+**Or install with one line**, with no disk image and no Open Anyway step. Handy on a
+Mac that won't open disk images, such as some work Macs. Open **Terminal** (in
+Applications → Utilities), paste this line and press Return:
+
+```
+curl -fsSL https://github.com/BansalAakash/sticker-foundry-releases/releases/latest/download/install.sh | bash
+```
+
+It picks the download for your Mac's chip, puts Sticker Foundry in the **Applications
+folder inside your home folder** (no admin password needed), and opens it. Allow
+**Bluetooth** when it asks, and you're done: skip the steps below. You can
+[read what it does](install.sh) first. It doesn't get past rules set by a company's IT:
+if a work Mac only allows approved apps, ask IT.
+
 **New to Sticker Foundry?** [The complete guide](GUIDE.md) covers everything, from the
 first setup to a busy day at the booth, with a [troubleshooting](GUIDE.md#15-troubleshooting)
 section and [answers to common questions](GUIDE.md#16-questions-people-ask).
@@ -18,6 +32,9 @@ section and [answers to common questions](GUIDE.md#16-questions-people-ask).
 ---
 
 ## Install (once per Mac)
+
+These steps are for the disk image. (With the one-line install above, there's nothing
+more to do.)
 
 1. **Open** the file you downloaded (**Sticker-Foundry-Apple-Silicon.dmg** or
    **Sticker-Foundry-Intel.dmg**), and drag **Sticker Foundry** into **Applications**.
@@ -66,3 +83,6 @@ booth from whoever runs your booths.
 Download the new version from the same link, and drag it into Applications again,
 replacing the old one. macOS stops a new version once, like the first time: do steps 2
 to 4 again.
+
+Installed with the one line? Quit Sticker Foundry, then run the same line again. Your
+settings, counts and booth are kept either way.
