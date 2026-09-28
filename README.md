@@ -68,8 +68,9 @@ app, choose **Open**, then **Open** again.
 
 ## Then
 
-Sticker Foundry opens a page in your browser: the **console**, your control panel for
-the booth. The first time, a **setup guide** walks you through it one step at a time:
+Sticker Foundry opens in its own window: the **console**, your control panel for the
+booth. Closing the window leaves the booth running (click the Dock icon to bring it
+back); ⌘Q quits. The first time, a **setup guide** walks you through it one step at a time:
 switching on your printers, loading paper, and, if guests will print from their phones,
 connecting your booth and making their slips. The [complete guide](GUIDE.md) explains
 everything else.

@@ -114,9 +114,20 @@ To open it later, use Spotlight (⌘ Space, type *Sticker Foundry*) or, in Finde
 
 ### Once it's installed
 
-Sticker Foundry has no window of its own. It opens a page in your web browser at
-**http://localhost:8080**: that page is the **console**, your control panel. There is no
-Dock icon; to bring the page back at any time, open Sticker Foundry again.
+Sticker Foundry opens in its own window: the **console**, your control panel. It has a
+Dock icon and a menu bar like any Mac app.
+
+- **Closing the window leaves the booth running**: printers keep printing and guests'
+  sheets keep arriving. Click the Dock icon, the printer icon at the top right of the
+  screen, or open Sticker Foundry again, to bring the window back. To make closing the window quit instead, untick **Sticker Foundry** →
+  **Keep Running When Window Is Closed** in the menu bar.
+- **⌘Q** quits Sticker Foundry, the same as **Quit** on the console.
+- The **printer icon** at the top right of the screen, next to the clock, is there while
+  Sticker Foundry runs, even with the window closed: **Show Console**, **Open in
+  Browser** and **Quit Sticker Foundry**.
+- **Sticker Foundry** → **Open in Browser** opens the console in your web browser too. From
+  a phone or another computer on the same Wi-Fi, go to this Mac's address, e.g.
+  `http://your-mac.local:8080`.
 
 It keeps its files here:
 
@@ -191,7 +202,8 @@ Will guests print from their phones?
 ### Step 4: Booth
 
 A **booth** is one place where guests print, like "Bangalore office". It has its own QR
-code, slips and limits. This step connects this Mac to one.
+code, and its own rule for who may print (see [booth kinds](#booth-kinds)). This step
+connects this Mac to one.
 
 <img src="images/guide/setup-5-booth.png" alt="Pick your booth: the admin password, or a console code" width="600">
 
@@ -199,8 +211,9 @@ code, slips and limits. This step connects this Mac to one.
 
 - Press a booth to connect this Mac to it. The one this Mac is connected to says
   **This Mac**.
-- Or type a name under **Or make a new booth** and press **Make it**. It is made and
-  connected in one go.
+- Or type a name under **Or make a new booth**, choose how guests get to print (**Open**,
+  **Google sign-in** with how many sheets each, or **Slip codes**), and press **Make it**.
+  It is made and connected in one go. That choice can't be changed later.
 
 **With a console code instead:** if someone else made your booth, they send you its
 console code. Paste it under **Console code** and press **Connect**. It connects this Mac
@@ -212,7 +225,7 @@ you'll have two booths with the same name.
 
 ### Step 5: Slips
 
-Each guest needs a slip: a QR code to scan, and an 8-character code that is good for one
+Only for a **Slip codes** booth; the other kinds skip this step. Each guest needs a slip: a QR code to scan, and an 8-character code that is good for one
 sheet.
 
 - **How many slips?** The box suggests a number: one and a half for every sheet you
@@ -335,16 +348,30 @@ file beside it saying why. Fix the image and drop it in again.
 
 ## 7. Guests printing from their phones
 
+### Booth kinds
+
+Each booth is one of three kinds, chosen when it's made and never changed:
+
+| Kind | What guests need | Limit |
+|---|---|---|
+| **Open** | Nothing: they scan the QR code and print. | None per person. **Pause** and **Max waiting** still work. |
+| **Google sign-in** | To sign in with Google. | The sheets per person you chose (0 = no limit). The booth's Mac counts them. |
+| **Slip codes** | An 8-character code from a paper slip you hand out. | One code, one sheet. Signing in stays optional. |
+
+Booths made before booth kinds existed are **Slip codes** booths. The admin page shows
+each booth's kind on its card.
+
 ### What the guest does
 
-1. You hand them a **slip**.
-2. They scan its QR code (or the poster's) with their phone camera. Sticker Foundry opens
+1. At a **Slip codes** booth, you hand them a **slip**.
+2. They scan the QR code (on the slip, or the poster) with their phone camera. Sticker Foundry opens
    in their browser, already linked to your booth. Nothing to install.
 3. They take a photo of themselves (or pick one).
 4. Gemini makes stickers of them in different styles. They pick **up to 8** for their
    sheet, and can make more or describe their own.
-5. They press **Print Stickers**, type the **8-character code** from their slip, and
-   press **Send Print**.
+5. They press **Print Stickers** and **Send Print**. At a **Google sign-in** booth they sign
+   in with Google first; at a **Slip codes** booth they type the **8-character code**
+   from their slip.
 6. Their phone follows the sheet:
 
 | The phone says | Meaning |
@@ -356,11 +383,14 @@ file beside it saying why. Fix the image and drop it in again.
 | **Sheet was not printed** | The booth refused the sheet (see below). It didn't use up their code; they can adjust it and send again. |
 | **Print cancelled** | You removed it from the queue. |
 
-Guests can also **Sign in** with Google, at the top of the page. It's optional: it keeps a list of
-their sheets and how each one is doing. Per-person limits only apply to guests who sign
-in; the slips are the real limit.
+Guests can also **Sign in** with Google, at the top of the page. At Open and Slip codes
+booths it's optional: it keeps a list of their sheets and how each one is doing. At a
+**Google sign-in** booth it's required, and a guest who has used their sheets sees
+**You've used all your sheets**.
 
 ### Slips and codes
+
+For **Slip codes** booths only.
 
 - Each code is **8 characters** and never uses O, 0, I, 1 or L, so it can't be misread.
 - **One code, one sheet.** A used code says **This code has already been used**; a
@@ -388,9 +418,10 @@ in; the slips are the real limit.
 
 ### Limits and pausing
 
-On the admin page ([section 12](#12-the-admin-page)) you can pause a booth (guests can't
-send new sheets), limit **sheets per person**, cap how many sheets may wait at once, give
-one guest an extra sheet, and start a new event.
+The booth's kind sets the limit per person (see [booth kinds](#booth-kinds)). At a
+**Slip codes** booth, to let someone print again, hand them another slip. On the admin
+page ([section 12](#12-the-admin-page)) you can also pause any booth (guests can't send
+new sheets) and cap how many sheets may wait at once.
 
 ---
 
@@ -446,8 +477,8 @@ sheets** and the printer gets no more work.
    own count, but that is only arithmetic: tomorrow, enter what you actually count.
 5. Switch the printers off.
 
-For a new event with the same booth, **Start new event** on the admin page lets every
-guest print again, and the ↻ next to **Sheets printed** starts the count from zero.
+For a new event with the same booth, make a fresh batch of slips on the admin page, and
+press the ↻ next to **Sheets printed** to start the count from zero.
 
 ---
 
@@ -558,8 +589,17 @@ rules for guests. Open it with **Admin** at the bottom of the console, or go to
 http://localhost:8080/admin. Sign in with the admin password. You stay signed in until
 you close that browser tab or press **Sign out**.
 
-**New booth.** Type a name and press **Create booth**. Each booth gets an ID made from its
-name plus random letters, like `bangalore-office-7k3q9x2m4a`.
+**New booth.** Type a name, choose **how guests get to print**, and press **Create
+booth**:
+
+- **Open** (the default): anyone with the QR code prints.
+- **Google sign-in**: guests must sign in with Google. Set **Sheets per person** from 0
+  to 20 (0 = no limit).
+- **Slip codes**: each guest needs a code from a paper slip, one per sheet.
+
+This can't be changed once the booth exists; make a new booth if you need a different
+kind (see [booth kinds](#booth-kinds)). Each booth gets an ID made from its name plus
+random letters, like `bangalore-office-7k3q9x2m4a`.
 
 **Applet link.** The address of the guest app, shared by every booth. Each booth's QR code
 is this link with the booth's ID added. Leave it alone unless you were told to change it.
@@ -571,23 +611,25 @@ is this link with the booth's ID added. Leave it alone unless you were told to c
 | **Online** / **Offline** | Whether the booth's Mac is running Sticker Foundry and connected right now. **Last seen** says when it was last heard from. |
 | **Paused** | Guests can't send new sheets. |
 | **Printers ready**, **Waiting**, **Printed** | Live from the booth's Mac. |
-| **Sheets per person**, **Max waiting** | The booth's limits. |
+| **Max waiting** | How many sheets may wait before guests are asked to wait. |
+| **Guests** | The booth's kind: Open, Google sign-in (with sheets per person), or Slip codes. Fixed when the booth was made. |
 | The booth ID, with **Copy** | The ID is on every slip, so it isn't secret. |
 | **Copy console code** | What connects a Mac to this booth. Keep it private. (A booth made before console codes existed shows **Make console code** instead.) |
 
 **The buttons on a booth card**
 
 - **Edit**
-  - **Name**.
+  - **Name**: printed on guests' sheets, so give the booth the event's name (e.g. *Diwali
+    at Hyderabad*).
+  - **Theme** (optional): a sentence about the event, e.g. *Diwali: diyas, rangoli,
+    fireworks, sweets*. Every sticker guests make is made to fit it, or tick **Only some
+    stickers** for about half themed and the rest the usual mix. Change either any time:
+    the next sheet a guest makes uses it. Leave it empty for the usual mix of stickers.
   - **Paused**: guests can't send new sheets.
-  - **Sheets per person** (0 = unlimited): for guests who signed in, per event.
   - **Max sheets waiting before guests are asked to wait** (0 = unlimited): keeps the line
     from growing longer than your printers can manage.
-  - **Give one guest another sheet at this booth**: type the email address they signed in
-    with.
-  - **Start new event**: every guest can make sheets again, with fresh per-person counts.
 - **Pause** / **Resume**: the same as the Paused box, in one click.
-- **Codes**
+- **Codes** (for Slip codes booths)
   - **How many slips to make**, then **Make slips**. The new batch appears under
     **Slips made**, with **Save PDF**, **Print**, **Save as text** and **Count used**
     (how many of that batch have been used). Batches are kept, so you can print them
@@ -768,8 +810,8 @@ Within a couple of metres of the Mac, ideally with nothing metal in between.
 As many as you like. Each one takes sheets from the same queue.
 
 **Which browser?**
-Any up-to-date browser: Safari, Chrome, Firefox, Edge. The console opens in your
-default one.
+None needed: the console opens in Sticker Foundry's own window. **Open in Browser** (in
+the Sticker Foundry menu) opens it in any up-to-date browser too.
 
 **What paper and ink?**
 Your printer's own 4 x 7 inch sticker sheets and ink ribbon cartridges. Change the paper
@@ -777,10 +819,11 @@ and the ribbon together.
 
 ### Printing
 
-**Can I close the browser tab?**
-Yes: printing carries on without it. But the tab is what chimes and pops up alerts
-when something goes wrong, so keep it open during an event. Open Sticker Foundry again to
-bring it back.
+**Can I close the window?**
+Yes: printing carries on, and the window comes back when you click the Dock icon, the
+printer icon next to the clock, or open Sticker Foundry again. Alerts still reach you as Mac notifications while it's closed. (If
+you've unticked **Keep Running When Window Is Closed**, closing the window quits
+instead.)
 
 **Can I use the Mac for other things meanwhile?**
 Yes. Just don't quit Sticker Foundry, close the lid, or let it run out of battery.
@@ -822,13 +865,13 @@ meanwhile; other printers carry on. A sheet it was printing may appear under **H
 ### Guests
 
 **Do guests need an app or an account?**
-No. They scan the QR code and it opens in their phone's browser. Signing in with Google
-is optional: it keeps a list of their sheets, and lets an admin give them an extra one.
+No. They scan the QR code and it opens in their phone's browser. They sign in with Google
+only at a Google sign-in booth.
 
 **Can a guest print more than once?**
-One code prints one sheet, so each slip is one sheet. For another, give them another
-slip, or give them an extra sheet on the admin page (**Edit** → **Give one guest another
-sheet**, for guests who signed in).
+At a Slip codes booth, one code prints one sheet, so for another, give them another slip.
+At a Google sign-in booth, as many as the booth allows each person; at an Open booth, as
+many as they like.
 
 **A guest lost their slip.**
 Give them a new one. Their unused code simply goes unused.
@@ -837,9 +880,18 @@ Give them a new one. Their unused code simply goes unused.
 Yes: **Pause** on the booth's card on the admin page. Or cap the queue with **Max sheets
 waiting**.
 
-**We're starting a new event. How do I reset everyone's limits?**
-**Edit** → **Start new event** on the admin page. Print fresh slips too: codes already
-used stay used.
+**We're starting a new event. What do I reset?**
+At a Slip codes booth, make a fresh batch of slips: codes already used stay used. At a
+Google sign-in booth, each guest's count lasts as long as the booth, so for fresh counts
+make a new booth. An Open booth has nothing to reset.
+
+**A guest wants another sheet. How?**
+At a Slip codes booth, hand them another slip, or type your own unlimited code for them.
+At a Google sign-in booth the limit is fixed; an Open booth has none.
+
+**Can I change a booth from Open to Slip codes (or the other way) later?**
+No: what a booth asks of guests is fixed when it's made, so guests always know what to
+expect. Make a new booth of the kind you need.
 
 ### Booths and passwords
 
@@ -874,8 +926,10 @@ phone, open `http://Booth-Mac.local:8080` with your Mac's name in place of `Boot
 
 ## 17. Quitting, updating, resetting and getting help
 
-**Quit.** Press **Quit** at the top right. Printers are disconnected cleanly, and you can
-close the tab. Never force-quit Sticker Foundry while it's printing.
+**Quit.** Press **Quit** at the top right, or **⌘Q**. Printers are disconnected cleanly
+and the window closes. While a printer is printing it won't quit: the sheet in it is
+already paid for, so wait for it to finish. Never force-quit Sticker Foundry while it's
+printing.
 
 **Open it again** from Applications. The queue, sheet counts, booth and settings are all
 remembered.
@@ -922,10 +976,9 @@ If Sticker Foundry ever stops because of a problem, it says so in a message with
 | **Booth** | One place where guests print, with its own QR code, slips and limits. |
 | **Cassette** | The printer's paper tray. Holds 36 sheets. |
 | **Code** | The 8 characters on a slip, good for one sheet. |
-| **Console** | Sticker Foundry's page in your browser: your control panel. |
+| **Console** | Sticker Foundry's window: your control panel. |
 | **Console code** | What connects a Mac to one booth: the booth's ID, a slash, then a key. Keep it private. |
 | **Cut path** | One line the blade cuts. A sticker with a hole has two. |
-| **Event** | A run of a booth. A new event lets every guest print again. |
 | **Held** | A job that stopped mid-print, waiting for you to decide. |
 | **Incoming folder** | Where you drop images to print. |
 | **Queue** | The line of sheets waiting to print, first in, first out. |
