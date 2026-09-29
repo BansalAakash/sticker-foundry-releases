@@ -125,9 +125,9 @@ Dock icon and a menu bar like any Mac app.
 - The **printer icon** at the top right of the screen, next to the clock, is there while
   Sticker Foundry runs, even with the window closed: **Show Console**, **Open in
   Browser** and **Quit Sticker Foundry**.
-- **Sticker Foundry** → **Open in Browser** opens the console in your web browser too. From
-  a phone or another computer on the same Wi-Fi, go to this Mac's address, e.g.
-  `http://your-mac.local:8080`.
+- **Sticker Foundry** → **Open in Browser** opens the console in your web browser too. To
+  keep an eye on it from a phone or another computer on the same Wi-Fi, go to this Mac's
+  address, e.g. `http://your-mac.local:8080`. The buttons only work on the Mac itself.
 
 It keeps its files here:
 
@@ -258,7 +258,7 @@ console**.
 |---|---|
 | **Sheets printed** | How many sheets this booth has printed. The small ↻ sets it back to zero (it asks first, and there is no undo). |
 | **Set up** | Opens the setup guide again. |
-| **Quit** | Stops Sticker Foundry cleanly. See [section 16](#17-quitting-updating-resetting-and-getting-help). |
+| **Quit** | Stops Sticker Foundry cleanly. See [section 17](#17-quitting-updating-resetting-and-getting-help). |
 | **?** | A short help page. |
 | **The sun/moon switch** | Light or dark. Your choice is remembered on every page. |
 
@@ -266,7 +266,7 @@ console**.
 
 | | |
 |---|---|
-| **Turn on alerts** | Lets the console pop up a notification about faults, low paper and printers going offline, even when this window is hidden. Press it once and allow notifications. |
+| **Alerts** | In Sticker Foundry's own window, faults, low paper and printers going offline pop up as Mac notifications, even when the window is closed. Nothing to switch on. (In a web browser, press **Turn on alerts** once and allow notifications.) |
 | **Sound on / Sound off** | A printer fault chimes until it is cleared. This mutes it. |
 | **Find printers** | Keeps looking for printers you paired in System Settings, until you press it again to stop. For printers that were never paired, use **Set up** → **Search for printers**. |
 | **Printer cards** | One per printer. See [section 9](#9-the-printer-cards). |
@@ -291,16 +291,19 @@ stickers. **Image...** picks a picture; **Reset** goes back to white. It applies
 images dropped from now on; sheets already in the queue keep the background they were
 made with.
 
-**At the bottom**: **Download logs** (see [section 16](#17-quitting-updating-resetting-and-getting-help)),
-**Admin** (see [section 12](#12-the-admin-page)) and **Reset everything**.
+**At the bottom**: **Email logs** and **Download logs** (see [section 17](#17-quitting-updating-resetting-and-getting-help)),
+**Photo prints** ([section 19](#19-photo-prints)), **Day report** ([section 20](#20-the-day-report)),
+**Admin** ([section 12](#12-the-admin-page)) and **Reset everything**. The version you
+have is there too.
 
 **Banners across the page**
 
 | Banner | What to do |
 |---|---|
+| **Allow Bluetooth for Sticker Foundry** | macOS is asking whether Sticker Foundry may use Bluetooth: press **Allow**. No message showing? **System Settings** → **Privacy & Security** → **Bluetooth**, and switch **Sticker Foundry** on. macOS asks again after each update. The printers connect as soon as it's allowed. |
 | **Bluetooth is off on this Mac** | Turn it on from the menu bar. The printers reconnect by themselves. |
 | **The booth console has stopped working** | Press **Quit**, then open Sticker Foundry again. |
-| **This console cannot see Bluetooth** | macOS isn't answering. Quit and open Sticker Foundry again. Pairing the printers again won't help. |
+| **This console cannot see Bluetooth** | macOS isn't answering. Press **Quit**, then open Sticker Foundry again. Pairing the printers again won't help. |
 | **Not connected to the booth server - nothing on this screen is live** | Sticker Foundry has stopped. Open it again. |
 
 ---
@@ -386,7 +389,8 @@ each booth's kind on its card.
 Guests can also **Sign in** with Google, at the top of the page. At Open and Slip codes
 booths it's optional: it keeps a list of their sheets and how each one is doing. At a
 **Google sign-in** booth it's required, and a guest who has used their sheets sees
-**You've used all your sheets**.
+**You've used all ... sheets this booth allows per person** (they can still save their
+sheet to their phone).
 
 ### Slips and codes
 
@@ -436,7 +440,7 @@ new sheets) and cap how many sheets may wait at once.
 - [ ] Each printer's sheet count entered (**Update sheet count** on its card).
 - [ ] Every printer card green and **Ready**.
 - [ ] The queue empty, with nothing **Held**.
-- [ ] **Turn on alerts** pressed, and the sound on.
+- [ ] The sound on (**Sound on** on the Printers panel).
 - [ ] For guests' phones: the **Guest booth** dot green, slips printed and cut, the poster
   on the table.
 
@@ -453,7 +457,7 @@ new sheets) and cap how many sheets may wait at once.
 Other printers keep printing the whole time. With two printers, refill one at a time.
 
 **Low paper.** At **5 sheets** left, Sticker Foundry sends a "low on paper"
-notification (if you pressed **Turn on alerts**). That's the moment to fetch the next
+notification. That's the moment to fetch the next
 cassette and ribbon, not to start looking for them. At 0, the card says **Refill
 sheets** and the printer gets no more work.
 
@@ -477,8 +481,9 @@ sheets** and the printer gets no more work.
    own count, but that is only arithmetic: tomorrow, enter what you actually count.
 5. Switch the printers off.
 
-For a new event with the same booth, make a fresh batch of slips on the admin page, and
-press the ↻ next to **Sheets printed** to start the count from zero.
+For a new event with the same booth, change its name and theme under **Edit** on the admin
+page, make a fresh batch of slips if it's a Slip codes booth, and press the ↻ next to
+**Sheets printed** to start the count from zero.
 
 ---
 
@@ -509,6 +514,7 @@ Its two buttons are **Update sheet count** and **Pause** / **Resume**.
 | **Cutting** | The blade is moving. Keep fingers out of the slot. |
 | **Pausing after this job...** | You pressed Pause; it finishes this sheet first. |
 | **Paused - safe to open** | Paused and idle. Safe to refill. |
+| **Photo paper - photos only** | Switched to photo paper on **Photo prints**, so it takes no sticker sheets. See [section 19](#19-photo-prints). |
 | **Refill sheets** | Its count reached 0. Load paper, then **Update sheet count**. |
 | **Connecting...** | Reaching the printer. It keeps trying by itself, less often the longer it takes. |
 | **Offline** | It was connected and dropped. Check it's on and close by. |
@@ -608,7 +614,7 @@ is this link with the booth's ID added. Leave it alone unless you were told to c
 
 | On the card | Meaning |
 |---|---|
-| **Online** / **Offline** | Whether the booth's Mac is running Sticker Foundry and connected right now. **Last seen** says when it was last heard from. |
+| **Online** / **Offline** | Whether the booth's Mac is running Sticker Foundry and connected right now. An offline booth shows **Last seen**: when it was last heard from. |
 | **Paused** | Guests can't send new sheets. |
 | **Printers ready**, **Waiting**, **Printed** | Live from the booth's Mac. |
 | **Max waiting** | How many sheets may wait before guests are asked to wait. |
@@ -619,12 +625,16 @@ is this link with the booth's ID added. Leave it alone unless you were told to c
 **The buttons on a booth card**
 
 - **Edit**
-  - **Name**: printed on guests' sheets, so give the booth the event's name (e.g. *Diwali
-    at Hyderabad*).
+  - **Name**: guests see it at the top of the app, so the event's name works well (e.g.
+    *Diwali at Hyderabad*).
   - **Theme** (optional): a sentence about the event, e.g. *Diwali: diyas, rangoli,
     fireworks, sweets*. Every sticker guests make is made to fit it, or tick **Only some
     stickers** for about half themed and the rest the usual mix. Change either any time:
     the next sheet a guest makes uses it. Leave it empty for the usual mix of stickers.
+  - **Guests may upload their own sticker sheet** (off unless you tick it): guests can
+    send a sheet they made themselves instead of making one in the app. It must be a PNG
+    with a transparent background; the app shows them the rules. It uses up a slip or a
+    Google sheet like any other, and prints whatever image they bring.
   - **Paused**: guests can't send new sheets.
   - **Max sheets waiting before guests are asked to wait** (0 = unlimited): keeps the line
     from growing longer than your printers can manage.
@@ -638,7 +648,8 @@ is this link with the booth's ID added. Leave it alone unless you were told to c
     and **Stop this code** to retire it. Keep it off the slips.
   - **Open slips folder** shows saved slip PDFs.
 - **QR code**: the booth's QR code, with **Save QR as PNG** and **Print**, for a sign at
-  the booth. Scanning it opens the guest app; printing still needs a slip code.
+  the booth. Scanning it opens the guest app. At a Slip codes booth, printing still needs
+  a slip code.
 - **Delete**: type the booth's name to confirm. Its QR code stops working and its Mac can
   no longer connect; sheets already printed aren't affected. This can't be undone.
 
@@ -688,7 +699,7 @@ starts a second copy.
 | No **Open Anyway** button | Double-click the app again, then look again: it only shows for a while after macOS stops the app. |
 | macOS says the app isn't supported on this Mac, or it quits at once | You have the other chip's download. Check Apple menu → **About This Mac** and download the one for your Mac. |
 | "another program is using port 8080" | Something else is using the console's address, often an old copy of Sticker Foundry. Quit it (or restart the Mac), then open Sticker Foundry again. |
-| "Sticker Foundry stopped because of a problem" | Send the newest file from the logs folder it names (see [section 16](#17-quitting-updating-resetting-and-getting-help)). |
+| "Sticker Foundry stopped because of a problem" | Press **Email logs** in that message and send the email (see [section 17](#17-quitting-updating-resetting-and-getting-help)). |
 | The console page doesn't open | Open Sticker Foundry again: it brings the page back. Or go to http://localhost:8080. |
 | The disk image won't open, or you're not allowed to add apps to Applications | Use the [one-line install](#or-install-with-one-line) instead. It needs no disk image and no admin password. |
 | The one-line install says "Sticker Foundry is open" | Press **Quit** at the top right of the console, then run the line again. |
@@ -700,7 +711,7 @@ starts a second copy.
 | Problem | Fix |
 |---|---|
 | The setup guide didn't appear | Press **Set up** at the top of the console. |
-| Sticker Foundry never asked about Bluetooth, or you pressed **Don't Allow** | **System Settings** → **Privacy & Security** → **Bluetooth**, switch **Sticker Foundry** on, then quit it and open it again. |
+| Sticker Foundry never asked about Bluetooth, you pressed **Don't Allow**, or a banner says **Allow Bluetooth for Sticker Foundry** | **System Settings** → **Privacy & Security** → **Bluetooth**, and switch **Sticker Foundry** on. The printers connect as soon as it's allowed. |
 | A "Turn on Bluetooth" window | Turn Bluetooth on from the Bluetooth icon in the menu bar (or System Settings → Bluetooth), then press **Search again**. |
 | **Next** is greyed out on the Printers step | At least one printer has to say **Connected**. See the Printers table below. |
 | "A printer is printing" when you search | The search waits for printing to finish, so it doesn't hold a sheet up. Try again in a couple of minutes. |
@@ -709,7 +720,7 @@ starts a second copy.
 | "That is the booth ID on its own" | You pasted only the first half. Copy the whole console code (**Copy console code** on the admin page). |
 | "Firebase refused" or "Can't reach Firebase" | Check the Mac's internet, then try again. If the password changed, sign in again. |
 | "Could not connect this Mac" | The booth was probably made anyway. Press it in the list to connect, rather than making it again. |
-| "Only some of the slips could be made" | Press **Make slips** again for the rest. |
+| "Only 40 of the 60 could be made" (or other numbers) | Keep the PDF, and press **Make slips** again for the rest. |
 | You can't find the slips PDF | It's on your Desktop, named `slips-<booth>-<date>.pdf`. **Show in Finder** points to it. |
 
 ### Printers
@@ -821,9 +832,9 @@ and the ribbon together.
 
 **Can I close the window?**
 Yes: printing carries on, and the window comes back when you click the Dock icon, the
-printer icon next to the clock, or open Sticker Foundry again. Alerts still reach you as Mac notifications while it's closed. (If
-you've unticked **Keep Running When Window Is Closed**, closing the window quits
-instead.)
+printer icon next to the clock, or open Sticker Foundry again. Alerts still reach you as
+Mac notifications while it's closed. (If you've unticked **Keep Running When Window Is
+Closed**, closing the window quits instead.)
 
 **Can I use the Mac for other things meanwhile?**
 Yes. Just don't quit Sticker Foundry, close the lid, or let it run out of battery.
@@ -881,7 +892,8 @@ Yes: **Pause** on the booth's card on the admin page. Or cap the queue with **Ma
 waiting**.
 
 **We're starting a new event. What do I reset?**
-At a Slip codes booth, make a fresh batch of slips: codes already used stay used. At a
+Change the booth's name and theme under **Edit** on the admin page. At a Slip codes
+booth, make a fresh batch of slips: codes already used stay used. At a
 Google sign-in booth, each guest's count lasts as long as the booth, so for fresh counts
 make a new booth. An Open booth has nothing to reset.
 
@@ -911,11 +923,12 @@ card.
 
 **Who can see the console?**
 Anyone at this Mac, and anyone on the same Wi-Fi who knows its address: the console has
-no password. On a public or shared network, use a private one if you can (a phone
+no password. From another device it can only be watched; its buttons work only on the
+Mac itself. On a public or shared network, use a private one if you can (a phone
 hotspot works), and don't leave the Mac unattended where a guest could press things.
 
 **Can I check the booth from my phone?**
-Yes, on the same Wi-Fi. Find the Mac's name in **System Settings** → **General** →
+Yes, on the same Wi-Fi, to watch it (the buttons only work on the Mac). Find the Mac's name in **System Settings** → **General** →
 **Sharing**, at the bottom (it ends in `.local`, for example `Booth-Mac.local`). On your
 phone, open `http://Booth-Mac.local:8080` with your Mac's name in place of `Booth-Mac.local`.
 
@@ -938,7 +951,8 @@ remembered.
 Wait until nothing is printing, then press **Update now**. Sticker Foundry downloads the
 new version, checks it, quits, puts it in place (the old one goes to the Trash) and opens
 again by itself, usually within half a minute. Your queue, counts, booth and settings are
-kept. macOS may ask you to allow Bluetooth again: press **Allow**. **What's new** lists
+kept. macOS may ask you to allow Bluetooth again: press **Allow** (until you do, a banner
+says **Allow Bluetooth for Sticker Foundry**). **What's new** lists
 the changes. The version you have is at the bottom of the console.
 
 If **Update now** isn't offered, the line says why: most often Sticker Foundry is running
@@ -952,7 +966,8 @@ time: **Done**, then **Open Anyway**). Installed with the
 it was on day one: no jobs, no remembered printers, no sheet counts, no booth, no
 settings. It keeps the logs and the Mac's Bluetooth pairings. It asks twice (the second
 time you type RESET), and it refuses while a printer is printing. Nothing is deleted:
-everything is moved into folders named `_archive-<date>-reset`.
+everything is moved into folders named `_archive-<date>-reset`. (The newest five are
+always kept; older ones go to the Trash after a month.)
 
 **Getting help.** At the bottom of the console, press **Email logs**. A new email opens
 in Mail, addressed to the person who looks after Sticker Foundry, with the last 7 days
