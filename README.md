@@ -69,8 +69,8 @@ app, choose **Open**, then **Open** again.
 ## Then
 
 Sticker Foundry opens in its own window: the **console**, your control panel for the
-booth. Closing the window leaves the booth running (click the Dock icon to bring it
-back); ⌘Q quits. The first time, a **setup guide** walks you through it one step at a time:
+booth. Closing the window leaves the booth running (click the Dock icon, or the printer
+icon next to the clock, to bring it back); ⌘Q quits. The first time, a **setup guide** walks you through it one step at a time:
 switching on your printers, loading paper, and, if guests will print from their phones,
 connecting your booth and making their slips. The [complete guide](GUIDE.md) explains
 everything else.
@@ -80,9 +80,11 @@ booth from whoever runs your booths.
 
 ## Updating
 
-Download the new version from the same link, and drag it into Applications again,
-replacing the old one. macOS stops a new version once, like the first time: do steps 2
-to 4 again.
+When a newer version is out, a line at the top of the console says so. Once nothing is
+printing, press **Update now**: Sticker Foundry puts the new version in place and opens
+again by itself. If macOS asks about Bluetooth again, press **Allow**.
 
-Installed with the one line? Quit Sticker Foundry, then run the same line again. Your
-settings, counts and booth are kept either way.
+You can also update by hand: download the new version from the same link and drag it
+into Applications, replacing the old one. macOS stops a new version once, like the first
+time: do steps 2 to 4 again. Installed with the one line? Quit Sticker Foundry, then run
+the same line again. Your settings, counts and booth are kept either way.
