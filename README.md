@@ -158,9 +158,10 @@ it, for you to add what you saw and send.
 
 ## Updating
 
-The console checks for a new version by itself; **Check for updates**, by the version number at the bottom, checks right now and, if there is a newer version and nothing is printing, installs it and opens it again by itself. When a newer version is out, a line at the top of the console says so. Once nothing is
-printing, press **Update now**: Sticker Foundry puts the new version in place and opens
-again by itself. If macOS asks about Bluetooth again, press **Allow**.
+The console checks for a new version by itself. One button, by the version number at the
+bottom of the console, does the rest: **Check for updates** looks right now, and when a
+newer version is out it becomes **Update now**. Once nothing is printing, press it:
+Sticker Foundry puts the new version in place and opens again by itself. If macOS asks about Bluetooth again, press **Allow**.
 
 You can also update by hand: download the new version from the same link and drag it
 into Applications, replacing the old one. macOS stops a new version once, like the first
