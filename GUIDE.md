@@ -180,14 +180,17 @@ Each printer gets a row:
 
 ### Step 2: Paper
 
-Load sticker sheets into each printer's cassette, then type how many you put in.
+Load sticker sheets into each printer's cassette. Typing how many you put in is **optional**.
 
 <img src="images/guide/setup-3-paper.png" alt="The paper step: a sheet count for each printer" width="600">
 
-**Count them.** A printer can't tell how much paper it has, so this number is all
-Sticker Foundry knows. It counts down as sheets print and warns you when a printer runs
-low. A printer showing 0 sheets gets no work, so nothing prints until you enter a count.
-A full cassette is 36, but mid-event it's usually whatever is left of an opened pack.
+**Counting is optional.** A printer can't tell how much paper it has. If you type a count,
+Sticker Foundry counts it down as sheets print and warns you when a printer runs low, and
+stops sending sheets to that printer at zero. If you leave the box empty, nothing about paper
+is watched: printing works the same, and you find out a cassette is empty when the printer
+says so. You can add a count later with **Count sheets** on a printer's card, and take it
+away again with **Stop counting**. A full cassette is 36, but mid-event it's usually whatever
+is left of an opened pack.
 
 ### Step 3: Guests
 
@@ -209,6 +212,7 @@ connects this Mac to one.
 
 **With the admin password:** type it and press **Sign in**. You get a list of booths:
 
+- Each booth shows what guests do and how they get in, for example "Normal · Slip codes".
 - Press a booth to connect this Mac to it. The one this Mac is connected to says
   **This Mac**.
 - Or type a name under **Or create a new booth**, choose how guests get to print (**Open**,
@@ -464,7 +468,7 @@ new sheets) and cap how many sheets may wait at once.
 - [ ] Printers plugged into the mains (not a battery pack), within a couple of metres of
   the Mac, nothing metal in between.
 - [ ] Each printer loaded with paper **and** a ribbon cartridge, cassette pushed fully in.
-- [ ] Each printer's sheet count entered (**Update sheet count** on its card).
+- [ ] Optional: each printer's sheet count entered (**Count sheets** on its card).
 - [ ] Every printer card green and **Ready**.
 - [ ] The queue empty, with nothing **Held**.
 - [ ] The sound on (**Sound on** on the Printers panel).
@@ -478,7 +482,7 @@ new sheets) and cap how many sheets may wait at once.
 2. Open it. Replace the paper cassette **and** the ribbon cartridge. Push the cassette in
    until it latches: a cassette that isn't latched behaves like an empty one.
 3. Close it and wait for it to be ready.
-4. Press **Update sheet count** and enter the number of sheets you put in.
+4. If you are counting, press **Update sheet count** and enter the number of sheets you put in.
 5. Press **Resume**.
 
 Other printers keep printing the whole time. With two printers, refill one at a time.
@@ -521,7 +525,7 @@ exists, so if the new event needs a different theme, make a new booth for it.
 
 Each card shows the printer's name, a dot for whether the Mac has a live link to it, its
 status, the sheet it's printing (with **Preview**), and **Sheets: X left of Y loaded**.
-Its two buttons are **Update sheet count** and **Pause** / **Resume**.
+Its two buttons are **Count sheets** (**Update sheet count** once you are counting) and **Pause** / **Resume**. Counted printers also have a small **Stop counting** link.
 
 **Colours, readable from across the room**
 
@@ -530,7 +534,7 @@ Its two buttons are **Update sheet count** and **Pause** / **Resume**.
 | **Green** | Ready or printing. |
 | **Yellow** | Paused by you. |
 | **Red** | Needs you: the card says what to do. |
-| **None** | Connecting, offline, Bluetooth off, or waiting for a sheet count. |
+| **None** | Connecting, offline, or Bluetooth off. |
 
 **What the status says**
 
@@ -543,7 +547,7 @@ Its two buttons are **Update sheet count** and **Pause** / **Resume**.
 | **Pausing after this job...** | You pressed Pause; it finishes this sheet first. |
 | **Paused - safe to open** | Paused and idle. Safe to refill. |
 | **Photo paper - photos only** | Switched to photo paper on **Photo prints**, so it takes no sticker sheets. See [section 19](#19-photo-prints). |
-| **Refill sheets** | Its count reached 0. Load paper, then **Update sheet count**. |
+| **Refill sheets** | Only on a printer you are counting: its count reached 0. Load paper, then **Update sheet count**, or **Stop counting**. |
 | **Connecting...** | Reaching the printer. It keeps trying by itself, less often the longer it takes. |
 | **Offline** | It was connected and dropped. Check it's on and close by. |
 | **Bluetooth off** | Bluetooth is off on the Mac. Turn it on. |
@@ -689,6 +693,7 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
     don't carry the QR code, so keep the booth's QR up at the table.
   - **Show admin code** shows a code of your own that prints as many sheets as you like.
     It is made the first time you press it. Keep it off the slips.
+- **Open app**: opens the guest app for that booth, the page its QR code goes to.
 - **QR code**: the booth's QR code, with **Save QR as PNG** and **Print**, for a sign at
   the booth. Scanning it opens the guest app. At a Slip codes booth, printing still needs
   a slip code.
@@ -773,8 +778,8 @@ starts a second copy.
 | **Not answering** in the setup guide | Switch the printer on (it may have switched itself off), bring it close, and search again. |
 | A card stuck on **Connecting...** or **Offline** | Check it's on and close by. Another app or another Mac connected to it locks Sticker Foundry out: quit that app properly (don't force-quit). Then press **Find printers**, or **Set up** → **Search for printers**. |
 | **Bluetooth off** | Turn Bluetooth on from the menu bar. |
-| Nothing prints, and the cards say **Refill sheets** | Enter a sheet count with **Update sheet count**. |
-| A printer never gets any work | Is it paused (yellow)? Faulted (red)? Showing 0 sheets? |
+| Nothing prints, and the cards say **Refill sheets** | You are counting sheets and the count reached zero. Enter the real count with **Update sheet count**, or press **Stop counting**. |
+| A printer never gets any work | Is it paused (yellow)? Faulted (red)? Counted and showing 0 sheets? |
 
 ### Printing
 
