@@ -608,9 +608,10 @@ sheet**. Nothing has been used yet. Usually **Discard** is right.
 ## 12. The admin page
 
 The admin page manages every booth: it makes booths, slips and QR codes, and sets the
-rules for guests. Open it with **Admin** at the bottom of the console, or go to
-http://localhost:8080/admin. Sign in with the admin password. You stay signed in until
-you close that browser tab or press **Sign out**.
+rules for guests. Open it with **Admin** at the bottom of the console: it opens in the
+same window, and **Sticker console** at the top takes you back. (In a browser it is at
+http://localhost:8080/admin.) Sign in with the admin password. You stay signed in until
+you close the window or press **Sign out**.
 
 **New booth.** Type a name, choose **how guests get to print** and **what guests do**,
 and press **Create booth**:
@@ -633,9 +634,6 @@ And what they do (see [booth modes](#booth-modes)):
 None of this can be changed once the booth exists; make a new booth if you need a
 different kind, mode or theme (see [booth kinds](#booth-kinds)). Each booth gets an ID made
 from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
-
-**Applet link.** The address of the guest app, shared by every booth. Each booth's QR code
-is this link with the booth's ID added. Leave it alone unless you were told to change it.
 
 **Booths.** One card per booth, refreshed on its own (or press **Refresh**):
 
@@ -798,7 +796,7 @@ starts a second copy.
 | Printing stopped while the Mac was idle | The Mac went to sleep. Wake it; keep it plugged in with the lid open. |
 | **Update now** says a printer is printing | Wait for it to finish (or pause the queue and let it finish), then press **Update now** again. |
 | After **Update now**, the console didn't come back | Open Sticker Foundry from Applications. What happened is in the logs folder, in `sticker-foundry-update.log`. |
-| **Email logs** opened my email app, not Mail | Mail isn't set up on this Mac, or macOS said no. Drag the zip Finder is showing into the email. |
+| **Email logs** opened Gmail, but the logs aren't in the message | A link can't attach a file. Drag the zip Finder is showing into the Gmail message. |
 
 ### Photo prints
 
@@ -1003,14 +1001,12 @@ time you type RESET), and it refuses while a printer is printing. Nothing is del
 everything is moved into folders named `_archive-<date>-reset`. (The newest five are
 always kept; older ones go to the Trash after a month.)
 
-**Getting help.** At the bottom of the console, press **Email logs**. A new email opens
-in Mail, addressed to the person who looks after Sticker Foundry, with the last 7 days
-of what happened on this Mac attached. Add what you saw and roughly when, then press
-**Send**. Nothing is sent until you do. The first time, macOS asks whether Sticker
-Foundry may use Mail: press **OK**.
-
-Don't use Mail? Your own email app opens instead, and Finder shows the zip: drag it into
-the email. Or press **Download logs** and send the file however you like.
+**Getting help.** At the bottom of the console, press **Email logs**. Gmail opens in
+Chrome with a message ready, addressed to the person who looks after Sticker Foundry, and
+Finder shows a zip of the last 7 days of what happened on this Mac. Drag the zip into the
+message, add what you saw and roughly when, then press **Send**. Nothing is sent until you
+do. No Chrome? Gmail opens in your usual browser instead. Or press **Download logs** and
+send the file however you like.
 
 If Sticker Foundry ever stops because of a problem, it says so in a message with an
 **Email logs** button that does the same.
