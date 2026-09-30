@@ -645,7 +645,7 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
 | **Max waiting** | How many sheets may wait before guests are asked to wait. |
 | **Guests** | The booth's kind: Open, Google sign-in (with sheets per person), or Slip codes. Fixed when the booth was made. |
 | **Mode** | Normal, Drop or Vibe. Fixed when the booth was made. A Normal booth with a theme shows it under the card. |
-| The booth ID, with **Copy** | The ID is on every slip, so it isn't secret. |
+| The booth ID | The ID is on every slip, so it isn't secret. There is nothing to copy: the Mac connects with the console code. |
 | **Copy console code** | What connects a Mac to this booth. Keep it private. (A booth made before console codes existed shows **Make console code** instead.) |
 
 **The buttons on a booth card**
@@ -662,10 +662,11 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
     from growing longer than your printers can manage.
 - **Pause** / **Resume**: the same as the Paused box, in one click.
 - **Codes** (for Slip codes booths)
-  - **How many slips to make**, then **Make slips**. The new batch appears under
-    **Slips made**, with **Save PDF**, **Print**, **Print as stickers**, **Save as text**
-    and **Count used** (how many of that batch have been used). Batches are kept, so you
-    can print them again later.
+  - **How many slips to make**, then **Make slips**. The slips are
+    saved as a PDF on your Desktop, 20 to a page, and Finder opens on it: print it and
+    cut the slips apart. Each slip has an eight-character code, the booth's QR and the
+    Sticker Foundry logo. The batch is listed under **Slips made**, with **Print as
+    stickers**.
   - **Print as stickers** prints the codes on a sticker sheet, on one of your printers,
     instead of paper: 33 codes to a sheet, each its own small sticker in the guest app's
     colours, with the AI Studio and Gemini logos and "Good for one sticker sheet". Choose the printer if you have more than one, and which sheet if the batch
@@ -675,9 +676,8 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
     attention, you're told at once and nothing prints. The sheet uses one of that
     printer's sheets, like any other, and doesn't wait in the guests' queue. The stickers
     don't carry the QR code, so keep the booth's QR up at the table.
-  - **Your own code**: **Make one** for a code that prints as many sheets as you like,
-    and **Stop this code** to retire it. Keep it off the slips.
-  - **Open slips folder** shows saved slip PDFs.
+  - **Show admin code** shows a code of your own that prints as many sheets as you like.
+    It is made the first time you press it. Keep it off the slips.
 - **QR code**: the booth's QR code, with **Save QR as PNG** and **Print**, for a sign at
   the booth. Scanning it opens the guest app. At a Slip codes booth, printing still needs
   a slip code.
@@ -692,7 +692,7 @@ You can run someone else's booth without giving them the admin password:
 
 1. On the admin page, **Create booth** with their location's name.
 2. On its card, press **Copy console code** and send them the code.
-3. Under **Codes**, make their slips and press **Save PDF**. Send them the PDF.
+3. Under **Codes**, make their slips with **Make slips**. The PDF is saved to your Desktop and Finder opens on it: send them that file.
 4. Under **QR code**, press **Save QR as PNG** and send them the picture for their table.
 5. Send them the [download page](README.md). They install Sticker Foundry and, in the
    setup guide's Booth step, paste the console code under **Console code**.
