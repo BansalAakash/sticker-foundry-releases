@@ -608,9 +608,9 @@ sheet**. Nothing has been used yet. Usually **Discard** is right.
 ## 12. The admin page
 
 The admin page manages every booth: it makes booths, slips and QR codes, and sets the
-rules for guests. Open it with **Admin** at the bottom of the console: it opens in the
-same window, and **Sticker console** at the top takes you back. (In a browser it is at
-http://localhost:8080/admin.) Sign in with the admin password. You stay signed in until
+rules for guests. Open it with **Admin** at the bottom of the console: it opens as a
+pop-up on top of the console, and **Close** at the top puts it away. (In a browser it is
+also a page, at http://localhost:8080/admin.) Sign in with the admin password. You stay signed in until
 you close the window or press **Sign out**.
 
 **New booth.** Type a name, choose **how guests get to print** and **what guests do**,
