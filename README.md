@@ -109,8 +109,8 @@ icon next to the clock, to bring it back); ⌘Q quits.
 The first time, a **setup guide** walks you through it, one step at a time:
 
 1. **Printers.** Switch them on, put them near the Mac and press **Search for printers**.
-2. **Paper.** Load sticker sheets and type how many. (A printer can't count its own
-   paper, so this is how Sticker Foundry knows when to warn you.)
+2. **Paper.** Load sticker sheets. Optionally type how many, and Sticker Foundry warns
+   you before they run out. Leave it empty and printing works the same.
 3. **Guests.** If guests won't print from their phones, you're done: drop sticker images
    into the folder the console opens and they print.
 4. **Booth.** If they will, type the admin password and pick or make your booth, or
