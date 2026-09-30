@@ -70,7 +70,7 @@ could spend a sheet, and it never reprints anything on its own.
 | **Paper and ribbon** | The printer's 4 x 7 inch sticker sheets and ink ribbon cartridges. A cassette holds **36 sheets**. Paper and ribbon run out together, so change them together. |
 | **Internet** | Only if guests print from their phones. Folder printing works offline. |
 | **A password or a code** | Only for guests' phones: the **admin password**, or a **console code** for your booth from whoever runs your booths. |
-| **An office printer** | Only for guests' phones: to print the paper slips (A4 PDF, 20 slips a page). |
+| **An office printer** | Only for guests' phones: to print the paper slips (A4 PDF, 30 slips a page). |
 
 **Planning numbers**
 
@@ -681,7 +681,7 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
 - **Pause** / **Resume**: the same as the Paused box, in one click.
 - **Codes** (for Slip codes booths)
   - **How many slips to make**, then **Make slips**. The slips are
-    saved as a PDF in the `slips` folder of your Sticker Foundry folder, 20 to a page, and Finder opens on it: print it and
+    saved as a PDF in the `slips` folder of your Sticker Foundry folder, 30 to a page, and Finder opens on it: print it and
     cut the slips apart. Each slip has an eight-character code, the booth's QR and the
     Sticker Foundry logo. The batch is listed under **Slips made**, with **Print as
     stickers**.

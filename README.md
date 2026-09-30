@@ -14,8 +14,8 @@ you're printing. **[The complete guide](GUIDE.md)** covers everything, with pict
 
 ## Download for Mac
 
-- **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.10.1/Sticker-Foundry-Apple-Silicon_2.10.1.dmg)**
-- **[Intel](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.10.1/Sticker-Foundry-Intel_2.10.1.dmg)**
+- **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.11.0/Sticker-Foundry-Apple-Silicon_2.11.0.dmg)**
+- **[Intel](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.11.0/Sticker-Foundry-Intel_2.11.0.dmg)**
 
 Not sure which? Apple menu → **About This Mac**: "Chip: Apple M…" is Apple Silicon;
 "Processor: … Intel" is Intel. macOS 12 or later. No account needed.
@@ -69,8 +69,9 @@ folder inside your home folder** (no admin password needed), and opens it. Allow
 These steps are for the disk image. (With the one-line install above, there's nothing
 more to do.)
 
-1. **Open** the file you downloaded (**Sticker-Foundry-Apple-Silicon.dmg** or
-   **Sticker-Foundry-Intel.dmg**), and drag **Sticker Foundry** into **Applications**.
+1. **Open** the file you downloaded (its name starts with **Sticker-Foundry-Apple-Silicon**
+   or **Sticker-Foundry-Intel** and ends in the version and **.dmg**), and drag
+   **Sticker Foundry** into **Applications**.
 
 2. **Double-click Sticker Foundry** in Applications. The first time, macOS stops it:
 
