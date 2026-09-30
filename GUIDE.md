@@ -293,11 +293,13 @@ images dropped from now on; sheets already in the queue keep the background they
 made with.
 
 **Generate using Gemini** (next to **Image...**) makes a background from a description.
-The first time, paste your own Gemini key (get a free one from Google AI Studio); it is
+The first time, paste your own Gemini key (get one from Google AI Studio); it is
 kept on this Mac only. Describe the look in the box: the theme, colours, style, and any
 words and where they go (top, bottom, centre). The size of the sheet and its margins are
-handled for you. Press **Generate** and the picture appears. If you don't like it, press
-**Regenerate**, or **Edit prompt**, change the words and press **Regenerate**. When you
+handled for you. Any words you ask for are kept small and placed along the sides, and every
+background gets the same bottom edge: the Gemini logo at the bottom left, the AI Studio logo
+at the bottom right and "Sticker Foundry" between them. Press **Generate** and the picture appears. If you don't like it, press
+**Regenerate**; change the words in the box first to adjust it. When you
 like it, press **Use this background**. The description is sent to Google Gemini; the
 key is never shown again or included in the logs you email.
 
