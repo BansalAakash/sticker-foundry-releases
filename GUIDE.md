@@ -212,8 +212,9 @@ connects this Mac to one.
 - Press a booth to connect this Mac to it. The one this Mac is connected to says
   **This Mac**.
 - Or type a name under **Or make a new booth**, choose how guests get to print (**Open**,
-  **Google sign-in** with how many sheets each, or **Slip codes**), and press **Make it**.
-  It is made and connected in one go. That choice can't be changed later.
+  **Google sign-in** with how many sheets each, or **Slip codes**) and what they do
+  (**Normal**, **Drop** or **Vibe**, with an optional **Theme** for Normal), and press
+  **Make it**. It is made and connected in one go. Those choices can't be changed later.
 
 **With a console code instead:** if someone else made your booth, they send you its
 console code. Paste it under **Console code** and press **Connect**. It connects this Mac
@@ -364,6 +365,21 @@ Each booth is one of three kinds, chosen when it's made and never changed:
 Booths made before booth kinds existed are **Slip codes** booths. The admin page shows
 each booth's kind on its card.
 
+### Booth modes
+
+A booth also has a **mode**: what guests do once they're in. It is chosen when the booth
+is made and never changed, like the kind. Any kind can have any mode, except that **Vibe**
+can't be a **Google sign-in** booth.
+
+| Mode | What guests do |
+|---|---|
+| **Normal** | Make stickers in the Sticker Foundry app. The only mode with a **Theme**. |
+| **Drop** | Make a sticker sheet anywhere they like and upload it to the app. The app has no sticker maker, only the upload screen: a PNG with a transparent background, which it prints as it comes. |
+| **Vibe** | Don't use our app at all. It gives them this booth's ID, the sheet rules and a prompt to paste into an AI coding tool, so they build their own app and print from it. At a Slip codes booth they still need a slip, and a slip still buys one sheet. |
+
+In every mode the booth checks each sheet the same way and turns away ones it can't cut
+safely. Booths made before modes existed are **Normal** booths.
+
 ### What the guest does
 
 1. At a **Slip codes** booth, you hand them a **slip**.
@@ -481,9 +497,10 @@ sheets** and the printer gets no more work.
    own count, but that is only arithmetic: tomorrow, enter what you actually count.
 5. Switch the printers off.
 
-For a new event with the same booth, change its name and theme under **Edit** on the admin
-page, make a fresh batch of slips if it's a Slip codes booth, and press the ↻ next to
-**Sheets printed** to start the count from zero.
+For a new event with the same booth, change its name under **Edit** on the admin page,
+make a fresh batch of slips if it's a Slip codes booth, and press the ↻ next to
+**Sheets printed** to start the count from zero. A theme can't be changed once the booth
+exists, so if the new event needs a different theme, make a new booth for it.
 
 ---
 
@@ -595,17 +612,27 @@ rules for guests. Open it with **Admin** at the bottom of the console, or go to
 http://localhost:8080/admin. Sign in with the admin password. You stay signed in until
 you close that browser tab or press **Sign out**.
 
-**New booth.** Type a name, choose **how guests get to print**, and press **Create
-booth**:
+**New booth.** Type a name, choose **how guests get to print** and **what guests do**,
+and press **Create booth**:
 
 - **Open** (the default): anyone with the QR code prints.
 - **Google sign-in**: guests must sign in with Google. Set **Sheets per person** from 0
   to 20 (0 = no limit).
 - **Slip codes**: each guest needs a code from a paper slip, one per sheet.
 
-This can't be changed once the booth exists; make a new booth if you need a different
-kind (see [booth kinds](#booth-kinds)). Each booth gets an ID made from its name plus
-random letters, like `bangalore-office-7k3q9x2m4a`.
+And what they do (see [booth modes](#booth-modes)):
+
+- **Normal** (the default): guests make stickers in our app. Optionally give it a
+  **Theme**: a sentence about the event, e.g. *Diwali: diyas, rangoli, fireworks, sweets*.
+  Every sticker guests make is made to fit it, or tick **Only some stickers** for about
+  half themed and the rest the usual mix. Leave it empty for the usual mix of stickers.
+- **Drop**: guests make a sheet elsewhere and upload it. No sticker maker, and no theme.
+- **Vibe**: guests build their own app from a prompt we give them. No theme. Not available
+  with Google sign-in: the two grey each other out.
+
+None of this can be changed once the booth exists; make a new booth if you need a
+different kind, mode or theme (see [booth kinds](#booth-kinds)). Each booth gets an ID made
+from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
 
 **Applet link.** The address of the guest app, shared by every booth. Each booth's QR code
 is this link with the booth's ID added. Leave it alone unless you were told to change it.
@@ -619,31 +646,37 @@ is this link with the booth's ID added. Leave it alone unless you were told to c
 | **Printers ready**, **Waiting**, **Printed** | Live from the booth's Mac. |
 | **Max waiting** | How many sheets may wait before guests are asked to wait. |
 | **Guests** | The booth's kind: Open, Google sign-in (with sheets per person), or Slip codes. Fixed when the booth was made. |
+| **Mode** | Normal, Drop or Vibe. Fixed when the booth was made. A Normal booth with a theme shows it under the card. |
 | The booth ID, with **Copy** | The ID is on every slip, so it isn't secret. |
 | **Copy console code** | What connects a Mac to this booth. Keep it private. (A booth made before console codes existed shows **Make console code** instead.) |
 
 **The buttons on a booth card**
 
-- **Edit**
+- **Edit**: the kind, mode and theme are shown but can't be changed.
   - **Name**: guests see it at the top of the app, so the event's name works well (e.g.
     *Diwali at Hyderabad*).
-  - **Theme** (optional): a sentence about the event, e.g. *Diwali: diyas, rangoli,
-    fireworks, sweets*. Every sticker guests make is made to fit it, or tick **Only some
-    stickers** for about half themed and the rest the usual mix. Change either any time:
-    the next sheet a guest makes uses it. Leave it empty for the usual mix of stickers.
-  - **Guests may upload their own sticker sheet** (off unless you tick it): guests can
-    send a sheet they made themselves instead of making one in the app. It must be a PNG
-    with a transparent background; the app shows them the rules. It uses up a slip or a
-    Google sheet like any other, and prints whatever image they bring.
+  - **Sheets each device may send** (Open booths only; 0 = no limit): a soft limit. Each
+    phone or laptop browser may send this many sheets, then it is asked to stop. It is soft
+    because a guest who opens a new browser or a private window starts again. For a firm
+    limit, use a Slip codes booth. A sheet the booth turns away doesn't count.
   - **Paused**: guests can't send new sheets.
   - **Max sheets waiting before guests are asked to wait** (0 = unlimited): keeps the line
     from growing longer than your printers can manage.
 - **Pause** / **Resume**: the same as the Paused box, in one click.
 - **Codes** (for Slip codes booths)
   - **How many slips to make**, then **Make slips**. The new batch appears under
-    **Slips made**, with **Save PDF**, **Print**, **Save as text** and **Count used**
-    (how many of that batch have been used). Batches are kept, so you can print them
-    again later.
+    **Slips made**, with **Save PDF**, **Print**, **Print as stickers**, **Save as text**
+    and **Count used** (how many of that batch have been used). Batches are kept, so you
+    can print them again later.
+  - **Print as stickers** prints the codes on a sticker sheet, on one of your printers,
+    instead of paper: 33 codes to a sheet, each its own small sticker in the guest app's
+    colours, with the AI Studio and Gemini logos and "Good for one sticker sheet". Choose the printer if you have more than one, and which sheet if the batch
+    needs more than one (a batch of 60 is two sheets), then press **Print sheet**. Each
+    press prints one sheet and also saves it as a PDF on your Desktop. The printer must
+    be ready: if it is printing, paused, out of sheets, has photo paper in or needs
+    attention, you're told at once and nothing prints. The sheet uses one of that
+    printer's sheets, like any other, and doesn't wait in the guests' queue. The stickers
+    don't carry the QR code, so keep the booth's QR up at the table.
   - **Your own code**: **Make one** for a code that prints as many sheets as you like,
     and **Stop this code** to retire it. Keep it off the slips.
   - **Open slips folder** shows saved slip PDFs.
@@ -892,10 +925,11 @@ Yes: **Pause** on the booth's card on the admin page. Or cap the queue with **Ma
 waiting**.
 
 **We're starting a new event. What do I reset?**
-Change the booth's name and theme under **Edit** on the admin page. At a Slip codes
-booth, make a fresh batch of slips: codes already used stay used. At a
-Google sign-in booth, each guest's count lasts as long as the booth, so for fresh counts
-make a new booth. An Open booth has nothing to reset.
+Change the booth's name under **Edit** on the admin page. A theme is fixed when the booth
+is made, so for a different theme make a new booth. At a Slip codes booth, make a fresh
+batch of slips: codes already used stay used. At a Google sign-in booth, each guest's
+count lasts as long as the booth, so for fresh counts make a new booth. An Open booth
+has nothing to reset.
 
 **A guest wants another sheet. How?**
 At a Slip codes booth, hand them another slip, or type your own unlimited code for them.
