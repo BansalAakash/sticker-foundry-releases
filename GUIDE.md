@@ -118,11 +118,11 @@ Sticker Foundry opens in its own window: the **console**, your control panel. It
 Dock icon and a menu bar like any Mac app.
 
 - **Closing the window leaves the booth running**: printers keep printing and guests'
-  sheets keep arriving. Click the Dock icon, the printer icon at the top right of the
+  sheets keep arriving. Click the Dock icon, the Sticker Foundry logo at the top right of the
   screen, or open Sticker Foundry again, to bring the window back. To make closing the window quit instead, untick **Sticker Foundry** →
   **Keep Running When Window Is Closed** in the menu bar.
 - **⌘Q** quits Sticker Foundry, the same as **Quit** on the console.
-- The **printer icon** at the top right of the screen, next to the clock, is there while
+- The **Sticker Foundry logo** at the top right of the screen, next to the clock, is there while
   Sticker Foundry runs, even with the window closed: **Show Console**, **Open in
   Browser** and **Quit Sticker Foundry**.
 - **Sticker Foundry** → **Open in Browser** opens the console in your web browser too. To
@@ -863,7 +863,7 @@ and the ribbon together.
 
 **Can I close the window?**
 Yes: printing carries on, and the window comes back when you click the Dock icon, the
-printer icon next to the clock, or open Sticker Foundry again. Alerts still reach you as
+logo next to the clock, or open Sticker Foundry again. Alerts still reach you as
 Mac notifications while it's closed. (If you've unticked **Keep Running When Window Is
 Closed**, closing the window quits instead.)
 
