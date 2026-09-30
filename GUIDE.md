@@ -292,7 +292,7 @@ stickers. **Image...** picks a picture; **Reset** goes back to white. It applies
 images dropped from now on; sheets already in the queue keep the background they were
 made with.
 
-**At the bottom**: **Email logs** and **Download logs** (see [section 17](#17-quitting-updating-resetting-and-getting-help)),
+**At the bottom**: **Email logs** (see [section 17](#17-quitting-updating-resetting-and-getting-help)),
 **Photo prints** ([section 19](#19-photo-prints)), **Day report** ([section 20](#20-the-day-report)),
 **Admin** ([section 12](#12-the-admin-page)) and **Reset everything**. The version you
 have is there too.
@@ -796,7 +796,7 @@ starts a second copy.
 | Printing stopped while the Mac was idle | The Mac went to sleep. Wake it; keep it plugged in with the lid open. |
 | **Update now** says a printer is printing | Wait for it to finish (or pause the queue and let it finish), then press **Update now** again. |
 | After **Update now**, the console didn't come back | Open Sticker Foundry from Applications. What happened is in the logs folder, in `sticker-foundry-update.log`. |
-| **Email logs** opened Gmail, but the logs aren't in the message | A link can't attach a file. Drag the zip Finder is showing into the Gmail message. |
+| **Email logs** opened the wrong browser | It uses Chrome when it is installed, and your usual browser when not. |
 
 ### Photo prints
 
@@ -1002,11 +1002,10 @@ everything is moved into folders named `_archive-<date>-reset`. (The newest five
 always kept; older ones go to the Trash after a month.)
 
 **Getting help.** At the bottom of the console, press **Email logs**. Gmail opens in
-Chrome with a message ready, addressed to the person who looks after Sticker Foundry, and
-Finder shows a zip of the last 7 days of what happened on this Mac. Drag the zip into the
-message, add what you saw and roughly when, then press **Send**. Nothing is sent until you
-do. No Chrome? Gmail opens in your usual browser instead. Or press **Download logs** and
-send the file however you like.
+Chrome with a message ready, addressed to the person who looks after Sticker Foundry, with
+the latest errors from this Mac already in it. Add what you saw and roughly when, then
+press **Send**. Nothing is sent until you do. No Chrome? Gmail opens in your usual browser
+instead.
 
 If Sticker Foundry ever stops because of a problem, it says so in a message with an
 **Email logs** button that does the same.
