@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" alt="Sticker Foundry" width="180">
+</p>
+
 # Sticker Foundry
 
 Print and cut stickers at your booth. Guests make stickers with Google's Gemini on
@@ -146,15 +150,15 @@ the guest fixes it and sends again.
 
 More in [troubleshooting](GUIDE.md#15-troubleshooting) and
 [questions people ask](GUIDE.md#16-questions-people-ask). Still stuck? Press **?** at the
-top of the console. If something is broken, press **Email logs** at the bottom: an email
-to the Sticker Foundry team opens with the logs attached, for you to add what you saw and
-send.
+top of the console. If something is broken, press **Email logs** at the bottom: Gmail
+opens in Chrome with a message to the Sticker Foundry team ready, and Finder shows the logs
+to drag in, for you to add what you saw and send.
 
 ---
 
 ## Updating
 
-When a newer version is out, a line at the top of the console says so. Once nothing is
+The console checks for a new version by itself; **Check for updates**, by the version number at the bottom, checks right now. When a newer version is out, a line at the top of the console says so. Once nothing is
 printing, press **Update now**: Sticker Foundry puts the new version in place and opens
 again by itself. If macOS asks about Bluetooth again, press **Allow**.
 
