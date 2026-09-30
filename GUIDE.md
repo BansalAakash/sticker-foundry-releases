@@ -211,10 +211,10 @@ connects this Mac to one.
 
 - Press a booth to connect this Mac to it. The one this Mac is connected to says
   **This Mac**.
-- Or type a name under **Or make a new booth**, choose how guests get to print (**Open**,
+- Or type a name under **Or create a new booth**, choose how guests get to print (**Open**,
   **Google sign-in** with how many sheets each, or **Slip codes**) and what they do
   (**Normal**, **Drop** or **Vibe**, with an optional **Theme** for Normal), and press
-  **Make it**. It is made and connected in one go. Those choices can't be changed later.
+  **Create this booth**. It is created and connected in one go. Those choices can't be changed later.
 
 **With a console code instead:** if someone else made your booth, they send you its
 console code. Paste it under **Console code** and press **Connect**. It connects this Mac
