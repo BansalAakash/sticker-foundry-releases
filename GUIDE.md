@@ -231,8 +231,8 @@ sheet.
 
 - **How many slips?** The box suggests a number: one and a half for every sheet you
   loaded, rounded up to whole pages of 20.
-- **Make slips and save to Desktop** makes the codes and saves a PDF named
-  `slips-<booth>-<date>.pdf` to your Desktop. **Show in Finder** points to it. Print it
+- **Make slips and save them** makes the codes and saves a PDF named
+  `slips-<booth>-<date>.pdf` in the `slips` folder inside your Sticker Foundry folder. **Show in Finder** points to it. Print it
   on an ordinary printer and cut the slips apart.
 - **Save a QR poster for the table** saves an A4 poster, `poster-<booth>-<date>.pdf`, with
   a big QR code and three steps for guests. Print it and stand it on the table.
@@ -663,7 +663,7 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
 - **Pause** / **Resume**: the same as the Paused box, in one click.
 - **Codes** (for Slip codes booths)
   - **How many slips to make**, then **Make slips**. The slips are
-    saved as a PDF on your Desktop, 20 to a page, and Finder opens on it: print it and
+    saved as a PDF in the `slips` folder of your Sticker Foundry folder, 20 to a page, and Finder opens on it: print it and
     cut the slips apart. Each slip has an eight-character code, the booth's QR and the
     Sticker Foundry logo. The batch is listed under **Slips made**, with **Print as
     stickers**.
@@ -671,7 +671,7 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
     instead of paper: 33 codes to a sheet, each its own small sticker in the guest app's
     colours, with the AI Studio and Gemini logos and "Good for one sticker sheet". Choose the printer if you have more than one, and which sheet if the batch
     needs more than one (a batch of 60 is two sheets), then press **Print sheet**. Each
-    press prints one sheet and also saves it as a PDF on your Desktop. The printer must
+    press prints one sheet and also saves it as a PDF in the `slips` folder. The printer must
     be ready: if it is printing, paused, out of sheets, has photo paper in or needs
     attention, you're told at once and nothing prints. The sheet uses one of that
     printer's sheets, like any other, and doesn't wait in the guests' queue. The stickers
@@ -692,7 +692,7 @@ You can run someone else's booth without giving them the admin password:
 
 1. On the admin page, **Create booth** with their location's name.
 2. On its card, press **Copy console code** and send them the code.
-3. Under **Codes**, make their slips with **Make slips**. The PDF is saved to your Desktop and Finder opens on it: send them that file.
+3. Under **Codes**, make their slips with **Make slips**. The PDF is saved in the `slips` folder and Finder opens on it: send them that file.
 4. Under **QR code**, press **Save QR as PNG** and send them the picture for their table.
 5. Send them the [download page](README.md). They install Sticker Foundry and, in the
    setup guide's Booth step, paste the console code under **Console code**.
@@ -752,7 +752,7 @@ starts a second copy.
 | "Firebase refused" or "Can't reach Firebase" | Check the Mac's internet, then try again. If the password changed, sign in again. |
 | "Could not connect this Mac" | The booth was probably made anyway. Press it in the list to connect, rather than making it again. |
 | "Only 40 of the 60 could be made" (or other numbers) | Keep the PDF, and press **Make slips** again for the rest. |
-| You can't find the slips PDF | It's on your Desktop, named `slips-<booth>-<date>.pdf`. **Show in Finder** points to it. |
+| You can't find the slips PDF | It's in the `slips` folder inside your Sticker Foundry folder, named `slips-<booth>-<date>.pdf`. **Show in Finder** points to it. |
 
 ### Printers
 
