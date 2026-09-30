@@ -829,7 +829,7 @@ Yes: 4 x 6 inch photos on photo paper, kept apart from the stickers. See
 Yes: **Day report** at the bottom of the console. See [section 20](#20-the-day-report).
 
 **How do I update it?**
-Press **Update now** when the console says a newer version is out. See
+Press **Check for updates** at the bottom of the console; if one is out, it becomes **Update now**. See
 [section 17](#17-quitting-updating-resetting-and-getting-help).
 
 **Apple Silicon or Intel?**
@@ -979,15 +979,16 @@ printing.
 **Open it again** from Applications. The queue, sheet counts, booth and settings are all
 remembered.
 
-**Updating.** When a newer version is out, a line at the top of the console says so.
-Wait until nothing is printing, then press **Update now**. Sticker Foundry downloads the
+**Updating.** One button, by the version number at the bottom of the console: **Check
+for updates** looks right now (the console also looks by itself), and when a newer
+version is out it becomes **Update now**. Wait until nothing is printing, then press it
+once. Sticker Foundry downloads the
 new version, checks it, quits, puts it in place (the old one goes to the Trash) and opens
 again by itself, usually within half a minute. Your queue, counts, booth and settings are
 kept. macOS may ask you to allow Bluetooth again: press **Allow** (until you do, a banner
-says **Allow Bluetooth for Sticker Foundry**). **What's new** lists
-the changes. The version you have is at the bottom of the console.
+says **Allow Bluetooth for Sticker Foundry**).
 
-If **Update now** isn't offered, the line says why: most often Sticker Foundry is running
+If **Update now** can't be pressed, the line beside it says why: most often Sticker Foundry is running
 straight from the disk image, so drag it into Applications and open it from there. You
 can always update by hand too: download the new version from the same page and drag it
 into Applications, replacing the old one (macOS stops a new version once, like the first
