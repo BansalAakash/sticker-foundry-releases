@@ -151,8 +151,8 @@ the guest fixes it and sends again.
 More in [troubleshooting](GUIDE.md#15-troubleshooting) and
 [questions people ask](GUIDE.md#16-questions-people-ask). Still stuck? Press **?** at the
 top of the console. If something is broken, press **Email logs** at the bottom: Gmail
-opens in Chrome with a message to the Sticker Foundry team ready, and Finder shows the logs
-to drag in, for you to add what you saw and send.
+opens in Chrome with a message to the Sticker Foundry team ready, with the latest errors in
+it, for you to add what you saw and send.
 
 ---
 
