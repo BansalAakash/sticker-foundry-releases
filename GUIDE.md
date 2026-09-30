@@ -303,7 +303,10 @@ words and where they go (top, bottom, centre). The size of the sheet and its mar
 handled for you. Any words you ask for are kept small and placed along the sides, and every
 background gets the same bottom edge: the Gemini logo at the bottom left, the AI Studio logo
 at the bottom right and "Sticker Foundry" between them. Press **Generate** and the picture appears. If you don't like it, press
-**Regenerate**; change the words in the box first to adjust it. When you
+**Regenerate**; change the words in the box first to adjust it. **Refine prompt**
+(available once you have typed 10 letters) has Gemini rewrite your description into a
+clearer, more specific one and puts it back in the box for you to read, change, or
+generate from. When you
 like it, press **Use this background**. The description is sent to Google Gemini; the
 key is never shown again or included in the logs you email.
 

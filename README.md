@@ -14,8 +14,8 @@ you're printing. **[The complete guide](GUIDE.md)** covers everything, with pict
 
 ## Download for Mac
 
-- **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/latest/download/Sticker-Foundry-Apple-Silicon.dmg)**
-- **[Intel](https://github.com/BansalAakash/sticker-foundry-releases/releases/latest/download/Sticker-Foundry-Intel.dmg)**
+- **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.10.1/Sticker-Foundry-Apple-Silicon_2.10.1.dmg)**
+- **[Intel](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.10.1/Sticker-Foundry-Intel_2.10.1.dmg)**
 
 Not sure which? Apple menu → **About This Mac**: "Chip: Apple M…" is Apple Silicon;
 "Processor: … Intel" is Intel. macOS 12 or later. No account needed.
