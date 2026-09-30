@@ -684,7 +684,7 @@ is this link with the booth's ID added. Leave it alone unless you were told to c
   the booth. Scanning it opens the guest app. At a Slip codes booth, printing still needs
   a slip code.
 - **Delete**: type the booth's name to confirm. Its QR code stops working and its Mac can
-  no longer connect; sheets already printed aren't affected. This can't be undone.
+  no longer connect; sheets already printed aren't affected. This can't be undone. If the connection drops halfway through, the booth is off your list at once and the admin page finishes removing it the next time it loads.
 
 ---
 
