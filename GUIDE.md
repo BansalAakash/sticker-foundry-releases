@@ -304,10 +304,10 @@ handled for you. Any words you ask for are kept small and placed along the sides
 background gets the same bottom edge: the Gemini logo at the bottom left, the AI Studio logo
 at the bottom right and "Sticker Foundry" between them. Press **Generate** and the picture appears. If you don't like it, press
 **Regenerate**; change the words in the box first to adjust it. **Refine prompt**
-(available once you have typed 10 letters) has Gemini rewrite your description into a
+(it asks for a few more characters if you have typed fewer than 10 letters) has Gemini rewrite your description into a
 clearer, more specific one and puts it back in the box for you to read, change, or
 generate from. When you
-like it, press **Use this background**. The description is sent to Google Gemini; the
+like it, press **Use**. The description is sent to Google Gemini; the
 key is never shown again or included in the logs you email.
 
 **At the bottom**: **Email logs** (see [section 17](#17-quitting-updating-resetting-and-getting-help)),
