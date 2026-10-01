@@ -449,7 +449,7 @@ For **Slip codes** booths only.
   arrived. A **green dot** means it is working. A **red dot** says **Can't reach
   Firebase**: this Mac has lost the internet. Guests' sheets wait safely and arrive when
   it's back.
-- Under it are this booth's own links: **AI Studio link** opens the guest app for the booth
+- Under it are this booth's own links: **AI Studio** opens the guest app for the booth
   (the page its QR code goes to), **QR code** shows its QR code in a window, and **QR
   poster** saves an A4 poster of it to the slips folder, to print and put on the table
   (**Show in Finder** points to it). Nothing there changes or removes the booth: that is
@@ -707,7 +707,7 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
     don't carry the QR code, so keep the booth's QR up at the table.
   - **Show admin code** shows a code of your own that prints as many sheets as you like.
     It is made the first time you press it. Keep it off the slips.
-- **AI Studio link**: opens the guest app for that booth, the page its QR code goes to.
+- **AI Studio**: opens the guest app for that booth, the page its QR code goes to.
 - **QR code**: the booth's QR code, with **Save QR as PNG** and **Print**, for a sign at
   the booth. Scanning it opens the guest app. At a Slip codes booth, printing still needs
   a slip code.
