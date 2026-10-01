@@ -292,7 +292,8 @@ out, and closes when you press **Esc**.
 **Sheet background** (under the queue): the colour, or an image, printed behind your
 stickers. **Image...** picks a picture; **Reset** goes back to white. It applies to
 images dropped from now on; sheets already in the queue keep the background they were
-made with.
+made with. The small **i** next to **Sheet background** shows the background in use while you
+hold the pointer over it (a swatch for a colour, a small picture for an image).
 
 **Generate using Gemini** (next to **Image...**) makes a background from a description.
 The first time, paste your own Gemini key (get one from Google AI Studio); it is
@@ -448,6 +449,11 @@ For **Slip codes** booths only.
   arrived. A **green dot** means it is working. A **red dot** says **Can't reach
   Firebase**: this Mac has lost the internet. Guests' sheets wait safely and arrive when
   it's back.
+- Under it are this booth's own links: **AI Studio link** opens the guest app for the booth
+  (the page its QR code goes to), **QR code** shows its QR code in a window, and **QR
+  poster** saves an A4 poster of it to the slips folder, to print and put on the table
+  (**Show in Finder** points to it). Nothing there changes or removes the booth: that is
+  done on the admin page.
 - Guest sheets join the **same queue** as folder images. **Remove**, **Pause**, held jobs
   and faults work exactly the same way.
 - A guest sheet that would waste paper (blank, stickers touching, or too small) is
