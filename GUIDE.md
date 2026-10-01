@@ -176,7 +176,8 @@ Each printer gets a row:
 - The search adds **every printer of this kind it can hear**, not only yours. At a venue
   with another sticker booth, ask them to switch theirs off while you search.
 - The search is refused while a sheet is printing, because it would hold up the printer.
-- **Next** opens once at least one printer says **Connected**.
+- **Next** is always open. You can go on without a connected printer and connect one later
+  from the console (**Find printers**, or **Set up** again).
 
 ### Step 2: Paper
 
@@ -192,17 +193,7 @@ says so. You can add a count later with **Count sheets** on a printer's card, an
 away again with **Stop counting**. A full cassette is 36, but mid-event it's usually whatever
 is left of an opened pack.
 
-### Step 3: Guests
-
-Will guests print from their phones?
-
-<img src="images/guide/setup-4-guests.png" alt="Will guests print from their phones? Yes, or No, I'll use a folder" width="600">
-
-- **Yes, from their phones**: the guide goes on to your booth and the slips.
-- **No, I'll use a folder**: you're done. Only images you drop into the incoming folder
-  print.
-
-### Step 4: Booth
+### Step 3: Booth
 
 A **booth** is one place where guests print, like "Bangalore office". It has its own QR
 code, and its own rule for who may print (see [booth kinds](#booth-kinds)). This step
@@ -224,17 +215,21 @@ connects this Mac to one.
 console code. Paste it under **Console code** and press **Connect**. It connects this Mac
 to that one booth and nothing else.
 
+**Next** is open even before a booth is picked: without one, the guide skips the slips and
+the summary says no booth is picked yet. Without a booth, only images dropped into the
+incoming folder print.
+
 When it works, the step says **This Mac prints for** *your booth*. If connecting fails,
 the message says why. To try again, press the booth in the list: don't make it again, or
 you'll have two booths with the same name.
 
-### Step 5: Slips
+### Step 4: Slips
 
 Only for a **Slip codes** booth; the other kinds skip this step. Each guest needs a slip: a QR code to scan, and an 8-character code that is good for one
 sheet.
 
 - **How many slips?** The box suggests a number: one and a half for every sheet you
-  loaded, rounded up to whole pages of 20.
+  loaded, rounded up to whole pages of 30.
 - **Make slips and save them** makes the codes and saves a PDF named
   `slips-<booth>-<date>.pdf` in the `slips` folder inside your Sticker Foundry folder. **Show in Finder** points to it. Print it
   on an ordinary printer and cut the slips apart.
@@ -244,7 +239,7 @@ sheet.
 Connected with a console code? Making slips needs the admin password, so this step tells
 you to ask whoever gave you the code for the slips and the QR code.
 
-### Step 6: Done
+### Step 5: Done
 
 <img src="images/guide/setup-6-done.png" alt="Your booth is ready: a summary with ticks" width="600">
 
@@ -266,6 +261,9 @@ console**.
 | **Quit** | Stops Sticker Foundry cleanly. See [section 17](#17-quitting-updating-resetting-and-getting-help). |
 | **?** | A short help page. |
 | **The sun/moon switch** | Light or dark. Your choice is remembered on every page. |
+
+Every pop-up (the help, the admin page, the setup guide's windows and the like) fades in and
+out, and closes when you press **Esc**.
 
 **Printers** (left)
 
@@ -647,7 +645,8 @@ And what they do (see [booth modes](#booth-modes)):
   half themed and the rest the usual mix. Leave it empty for the usual mix of stickers.
 - **Drop**: guests make a sheet elsewhere and upload it. No sticker maker, and no theme.
 - **Vibe**: guests build their own app from a prompt we give them. No theme. Not available
-  with Google sign-in: the two grey each other out.
+  with Google sign-in: choosing Vibe greys out **Google sign-in** (a note says why), and if
+  Google sign-in was already selected, the booth switches to **Open**.
 
 None of this can be changed once the booth exists; make a new booth if you need a
 different kind, mode or theme (see [booth kinds](#booth-kinds)). Each booth gets an ID made
@@ -763,7 +762,7 @@ starts a second copy.
 | The setup guide didn't appear | Press **Set up** at the top of the console. |
 | Sticker Foundry never asked about Bluetooth, you pressed **Don't Allow**, or a banner says **Allow Bluetooth for Sticker Foundry** | **System Settings** → **Privacy & Security** → **Bluetooth**, and switch **Sticker Foundry** on. The printers connect as soon as it's allowed. |
 | A "Turn on Bluetooth" window | Turn Bluetooth on from the Bluetooth icon in the menu bar (or System Settings → Bluetooth), then press **Search again**. |
-| **Next** is greyed out on the Printers step | At least one printer has to say **Connected**. See the Printers table below. |
+| A printer on the Printers step says **Not answering** | **Next** still works, but nothing will print until it connects. See the Printers table below. |
 | "A printer is printing" when you search | The search waits for printing to finish, so it doesn't hold a sheet up. Try again in a couple of minutes. |
 | **Wrong password.** | Type it again, minding capitals. If you don't have it, ask for a console code instead. |
 | "That is not a console code" | Copy the whole code again: the booth ID, a slash, then 20 letters and numbers. |

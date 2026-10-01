@@ -112,11 +112,12 @@ The first time, a **setup guide** walks you through it, one step at a time:
 1. **Printers.** Switch them on, put them near the Mac and press **Search for printers**.
 2. **Paper.** Load sticker sheets. Optionally type how many, and Sticker Foundry warns
    you before they run out. Leave it empty and printing works the same.
-3. **Guests.** If guests won't print from their phones, you're done: drop sticker images
-   into the folder the console opens and they print.
-4. **Booth.** If they will, type the admin password and pick or make your booth, or
-   paste the **console code** you were sent.
-5. **Slips** (Slip codes booths only). Make the slips, print the PDF and cut them apart.
+3. **Booth.** Type the admin password and pick or make your booth, or paste the
+   **console code** you were sent.
+4. **Slips** (Slip codes booths only). Make the slips, print the PDF and cut them apart.
+
+You can go to the next step at any time, even before a printer is connected. Without a
+booth, only images dropped into the incoming folder print.
 
 **Set up**, at the top of the console, opens the guide again. The
 [complete guide](GUIDE.md) explains the admin page, booth modes, making your own
