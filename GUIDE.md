@@ -260,7 +260,7 @@ console**.
 | **Set up** | Opens the setup guide again. |
 | **Quit** | Stops Sticker Foundry cleanly. See [section 17](#17-quitting-updating-resetting-and-getting-help). |
 | **?** | A short help page. |
-| **The sun/moon switch** | Light or dark. Your choice is remembered on every page. |
+| **The sun/moon switch** | Light or dark. Your choice is remembered on every page. Dark is the same look as the guest app: near-black, with acid-green accents. |
 
 Every pop-up (the help, the admin page, the setup guide's windows and the like) fades in and
 out, and closes when you press **Esc**.
@@ -453,8 +453,10 @@ For **Slip codes** booths only.
 - Under it are this booth's own links: **AI Studio** opens the guest app for the booth
   (the page its QR code goes to; the tiny copy icon at its end copies that link), **QR code** shows its QR code in a window, and **Save QR
   poster** saves an A4 poster of it to the slips folder, to print and put on the table
-  (**Show in Finder** points to it). Nothing there changes or removes the booth: that is
-  done on the admin page.
+  (**Show in Finder** points to it). On a **Slip codes** booth there are two more: **Make
+  slips** opens that booth's Codes on the admin page (it asks for the admin password once),
+  and **Slips folder** shows where the slips and posters are saved. Nothing there changes or
+  removes the booth: that is done on the admin page.
 - Guest sheets join the **same queue** as folder images. **Remove**, **Pause**, held jobs
   and faults work exactly the same way.
 - A guest sheet that would waste paper (blank, stickers touching, or too small) is
