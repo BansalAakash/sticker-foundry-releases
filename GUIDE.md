@@ -299,7 +299,8 @@ The first time, paste your own Gemini key (get one from Google AI Studio); it is
 kept on this Mac only. Describe the look in the box: the theme, colours, style, and any
 words and where they go (top, bottom, centre). The size of the sheet and its margins are
 handled for you. Any words you ask for are kept small and placed along the sides, and every
-background gets the same marks, added by Sticker Foundry itself: the Google and Antigravity
+background runs to every edge of the sheet (if Gemini leaves a border or blank margin round its
+picture, Sticker Foundry cuts it off), and gets the same marks, added by Sticker Foundry itself: the Google and Antigravity
 logos at the top corners, the Gemini and AI Studio logos at the bottom corners and
 the Sticker Foundry logo and name between them. Each sits on a small plate in the colour most
 of the picture is: lighter on a light picture, darker on a dark one, and the name is white or
