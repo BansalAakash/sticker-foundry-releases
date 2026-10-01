@@ -301,8 +301,10 @@ words and where they go (top, bottom, centre). The size of the sheet and its mar
 handled for you. Any words you ask for are kept small and placed along the sides, and every
 background gets the same marks, added by Sticker Foundry itself: the Google and Antigravity
 logos at the top corners, the Gemini and AI Studio logos at the bottom corners and
-"Sticker Foundry" in white between them. Each sits on a small dark plate, so it can be read
-on any picture; the logos keep their own colours. Press **Generate** and the picture appears. If you don't like it, press
+the Sticker Foundry logo and name between them. Each sits on a small plate in the colour most
+of the picture is: lighter on a light picture, darker on a dark one, and the name is white or
+black, whichever stands out. So the marks can be read on any picture, and the logos keep their
+own colours. Press **Generate** and the picture appears. If you don't like it, press
 **Regenerate**; change the words in the box first to adjust it. **Refine prompt**
 (it asks for a few more characters if you have typed fewer than 10 letters) has Gemini rewrite your description into a
 clearer, more specific one and puts it back in the box for you to read, change, or
