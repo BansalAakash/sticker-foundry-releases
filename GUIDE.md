@@ -303,8 +303,9 @@ handled for you. Any words you ask for are kept small and placed along the sides
 background runs to every edge of the sheet (whatever you type, even a request for a border or frame, is
 answered without one; and if Gemini still leaves a border or blank margin round its picture,
 Sticker Foundry cuts it off), and gets the same marks, added by Sticker Foundry itself: the Google and Antigravity
-logos at the top corners, the Gemini and AI Studio logos at the bottom corners and
-the Sticker Foundry logo and name between them. Each sits on a small plate in the colour most
+logos at the top corners and the Gemini and AI Studio logos at the bottom corners, all close
+to the edges so the stickers are unlikely to cover them, and the Sticker Foundry logo and name
+running up the left edge, just above the bottom-left logo. Each sits on a small plate in the colour most
 of the picture is: lighter on a light picture, darker on a dark one, and the name is white or
 black, whichever stands out. So the marks can be read on any picture, and the logos keep their
 own colours. Press **Generate** and the picture appears. If you don't like it, press
