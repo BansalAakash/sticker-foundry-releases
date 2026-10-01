@@ -233,7 +233,7 @@ sheet.
 - **Make slips and save them** makes the codes and saves a PDF named
   `slips-<booth>-<date>.pdf` in the `slips` folder inside your Sticker Foundry folder. **Show in Finder** points to it. Print it
   on an ordinary printer and cut the slips apart.
-- **Save a QR poster for the table** saves an A4 poster, `poster-<booth>-<date>.pdf`, with
+- **Save a QR poster for the table** saves an A4 poster, `poster-<booth>-<date>.pdf`, in the same dark, acid-green look as the guest app and the slips, with
   a big QR code and three steps for guests. Print it and stand it on the table.
 
 Connected with a console code? Making slips needs the admin password, so this step tells
@@ -445,12 +445,13 @@ For **Slip codes** booths only.
 
 ### What you see at the booth
 
-- The **Guest booth** panel shows the booth's name and ID, and how many guest sheets have
-  arrived. A **green dot** means it is working. A **red dot** says **Can't reach
+- The **Guest booth** panel shows the booth's name and ID, what kind of booth it is (for
+  example **Drop mode · open: anyone with the QR prints**: the mode is Normal, Drop or Vibe,
+  then how guests get in), and how many guest sheets have arrived. A **green dot** means it is working. A **red dot** says **Can't reach
   Firebase**: this Mac has lost the internet. Guests' sheets wait safely and arrive when
   it's back.
 - Under it are this booth's own links: **AI Studio** opens the guest app for the booth
-  (the page its QR code goes to), **QR code** shows its QR code in a window, and **Save QR
+  (the page its QR code goes to; the tiny copy icon at its end copies that link), **QR code** shows its QR code in a window, and **Save QR
   poster** saves an A4 poster of it to the slips folder, to print and put on the table
   (**Show in Finder** points to it). Nothing there changes or removes the booth: that is
   done on the admin page.
@@ -707,7 +708,7 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
     don't carry the QR code, so keep the booth's QR up at the table.
   - **Show admin code** shows a code of your own that prints as many sheets as you like.
     It is made the first time you press it. Keep it off the slips.
-- **AI Studio**: opens the guest app for that booth, the page its QR code goes to.
+- **AI Studio**: opens the guest app for that booth, the page its QR code goes to. The tiny copy icon at its end copies the link.
 - **QR code**: the booth's QR code, with **Save QR as PNG** and **Print**, for a sign at
   the booth. Scanning it opens the guest app. At a Slip codes booth, printing still needs
   a slip code.
