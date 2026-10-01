@@ -450,7 +450,7 @@ For **Slip codes** booths only.
   Firebase**: this Mac has lost the internet. Guests' sheets wait safely and arrive when
   it's back.
 - Under it are this booth's own links: **AI Studio** opens the guest app for the booth
-  (the page its QR code goes to), **QR code** shows its QR code in a window, and **QR
+  (the page its QR code goes to), **QR code** shows its QR code in a window, and **Save QR
   poster** saves an A4 poster of it to the slips folder, to print and put on the table
   (**Show in Finder** points to it). Nothing there changes or removes the booth: that is
   done on the admin page.
