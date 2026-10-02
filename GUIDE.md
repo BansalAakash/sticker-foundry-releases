@@ -467,6 +467,13 @@ For **Slip codes** booths only.
   The booth is remembered when Sticker Foundry restarts.
 - To connect by hand, paste a console code into **Console code** and press **Connect**
   (or use **Set up**).
+- At the bottom of the panel is the **Firebase project** your booths live in. To use
+  another one, press **Change**, paste that project's **firebaseConfig** (Firebase console:
+  **Project settings > Your apps > Config**) and press **Save**. The console checks the
+  project first and says what to fix if it isn't ready (the database, its rules, or
+  **Anonymous** sign-in). Switching disconnects the booth: connect again with a console
+  code from the new project. **Use built-in** goes back to the one Sticker Foundry comes
+  with.
 
 ### Limits and pausing
 
@@ -716,7 +723,9 @@ from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
   the booth. Scanning it opens the guest app. At a Slip codes booth, printing still needs
   a slip code.
 - **Delete**: type the booth's name to confirm. Its QR code stops working and its Mac can
-  no longer connect; sheets already printed aren't affected. This can't be undone. If the connection drops halfway through, the booth is off your list at once and the admin page finishes removing it the next time it loads.
+  no longer connect; sheets already printed aren't affected. This can't be undone. The
+  booth goes all at once, with its slips and anything still waiting; if the connection
+  drops, nothing is removed and you can try again.
 
 ---
 
