@@ -675,12 +675,6 @@ None of this can be changed once the booth exists; make a new booth if you need 
 different kind, mode or theme (see [booth kinds](#booth-kinds)). Each booth gets an ID made
 from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
 
-**Guest app.** The address every booth's QR code, slips, poster and **AI Studio** button
-send guests to (with the booth's ID added). It starts as the built-in address; paste
-another and press **Save** to send every booth's guests there, on every Mac, within a
-minute. **Use built-in** goes back. QR codes already printed keep the address they were
-printed with, so print new slips and posters after changing it.
-
 **Booths.** One card per booth, refreshed on its own (or press **Refresh**):
 
 | On the card | Meaning |
@@ -725,6 +719,12 @@ printed with, so print new slips and posters after changing it.
   - **Show admin code** shows a code of your own that prints as many sheets as you like.
     It is made the first time you press it. Keep it off the slips.
 - **AI Studio**: opens the guest app for that booth, the page its QR code goes to. The tiny copy icon at its end copies the link.
+  The small pencil beside it sends this booth's guests to a **different app**: paste its
+  address (it must start with https://) and press **Save**. The booth's QR code, slips,
+  poster and AI Studio button then go there, and its card says **Guests go to ...**.
+  Empty the box to use the usual app again. The same box is under **Edit**, behind
+  **Send this booth's guests to a different app**. QR codes already printed keep the
+  address they were printed with, so print new slips and posters after changing it.
 - **QR code**: the booth's QR code, with **Save QR as PNG** and **Print**, for a sign at
   the booth. Scanning it opens the guest app. At a Slip codes booth, printing still needs
   a slip code.
