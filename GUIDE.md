@@ -675,6 +675,12 @@ None of this can be changed once the booth exists; make a new booth if you need 
 different kind, mode or theme (see [booth kinds](#booth-kinds)). Each booth gets an ID made
 from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
 
+**Guest app.** The address every booth's QR code, slips, poster and **AI Studio** button
+send guests to (with the booth's ID added). It starts as the built-in address; paste
+another and press **Save** to send every booth's guests there, on every Mac, within a
+minute. **Use built-in** goes back. QR codes already printed keep the address they were
+printed with, so print new slips and posters after changing it.
+
 **Booths.** One card per booth, refreshed on its own (or press **Refresh**):
 
 | On the card | Meaning |
