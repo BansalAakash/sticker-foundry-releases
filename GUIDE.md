@@ -467,13 +467,6 @@ For **Slip codes** booths only.
   The booth is remembered when Sticker Foundry restarts.
 - To connect by hand, paste a console code into **Console code** and press **Connect**
   (or use **Set up**).
-- At the bottom of the panel is the **Firebase project** your booths live in. To use
-  another one, press **Change**, paste that project's **firebaseConfig** (Firebase console:
-  **Project settings > Your apps > Config**) and press **Save**. The console checks the
-  project first and says what to fix if it isn't ready (the database, its rules, or
-  **Anonymous** sign-in). Switching disconnects the booth: connect again with a console
-  code from the new project. **Use built-in** goes back to the one Sticker Foundry comes
-  with.
 
 ### Limits and pausing
 
@@ -674,6 +667,16 @@ And what they do (see [booth modes](#booth-modes)):
 None of this can be changed once the booth exists; make a new booth if you need a
 different kind, mode or theme (see [booth kinds](#booth-kinds)). Each booth gets an ID made
 from its name plus random letters, like `bangalore-office-7k3q9x2m4a`.
+
+**Firebase project.** At the bottom of the admin page, even before you sign in: the
+Firebase project this Mac's booths live in. You won't need it unless your booths move to
+another project. Press **Change**, paste that project's **firebaseConfig** and press
+**Save**; the **i** beside the title lists every step to take in the Firebase console
+first, and **Copy the rules** copies the rules to paste there. This Mac checks the project
+before using it and says what is missing (the database, its rules, or **Anonymous**
+sign-in). It changes this Mac only: do it on every Mac, make the booths again, and connect
+each Mac with its new console code. **Use built-in** goes back to the project Sticker
+Foundry comes with.
 
 **Booths.** One card per booth, refreshed on its own (or press **Refresh**):
 
