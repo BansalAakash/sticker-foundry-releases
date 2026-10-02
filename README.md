@@ -125,7 +125,7 @@ unlimited code, and everything else.
 
 ## On the day
 
-1. Open Sticker Foundry. Check every printer card says **Ready** and the **Guest booth**
+1. Open Sticker Foundry. Check every printer card says **Ready** and the **Booth**
    dot is green.
 2. At a Slip codes booth, hand each guest **one slip** as they arrive.
 3. Guests scan the QR code, make their stickers and press **Send**. Sheets appear in the
@@ -147,7 +147,7 @@ the guest fixes it and sends again.
 | A job is **held** | Sticker Foundry couldn't tell whether that sheet printed | Look in the printer. Came out? **Discard**. Didn't? **Reprint** |
 | **DO NOT reload paper yet** | A job is still waiting inside the printer | Clear the fault first, or the next sheet you load gets used |
 | A guest's code is **refused** | Mistyped, already used, or from another booth | Check the slip. Each code works once |
-| The **Guest booth** dot is red | No internet | Fix the internet. Guest sheets wait; nothing is lost |
+| The **Booth** dot is red | No internet | Fix the internet. Guest sheets wait; nothing is lost |
 | No printer cards at all | No printers found yet | Press **Set up** and search again |
 
 More in [troubleshooting](GUIDE.md#15-troubleshooting) and

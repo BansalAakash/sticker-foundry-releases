@@ -274,7 +274,7 @@ out, and closes when you press **Esc**.
 | **Find printers** | Keeps looking for printers you paired in System Settings, until you press it again to stop. For printers that were never paired, use **Set up** → **Search for printers**. |
 | **Printer cards** | One per printer. See [section 9](#9-the-printer-cards). |
 
-**Guest booth** (left, below the printers): which booth this Mac prints for. See
+**Booth** (left, below the printers): which booth this Mac prints for. See
 [section 7](#7-guests-printing-from-their-phones).
 
 **Queue** (right)
@@ -446,7 +446,7 @@ For **Slip codes** booths only.
 
 ### What you see at the booth
 
-- The **Guest booth** panel shows the booth's name and ID, what kind of booth it is (for
+- The **Booth** panel shows the booth's name and ID, what kind of booth it is (for
   example **Drop mode · open: anyone with the QR prints**: the mode is Normal, Drop or Vibe,
   then how guests get in), and how many guest sheets have arrived. A **green dot** means it is working. A **red dot** says **Can't reach
   Firebase**: this Mac has lost the internet. Guests' sheets wait safely and arrive when
@@ -496,7 +496,7 @@ new sheets) and cap how many sheets may wait at once.
 - [ ] Every printer card green and **Ready**.
 - [ ] The queue empty, with nothing **Held**.
 - [ ] The sound on (**Sound on** on the Printers panel).
-- [ ] For guests' phones: the **Guest booth** dot green, slips printed and cut, the poster
+- [ ] For guests' phones: the **Booth** dot green, slips printed and cut, the poster
   on the table.
 
 ### Refilling a printer
@@ -828,7 +828,7 @@ starts a second copy.
 
 | Problem | Fix |
 |---|---|
-| The **Guest booth** dot is red | This Mac has no internet. Guests' sheets wait and arrive when it's back. |
+| The **Booth** dot is red | This Mac has no internet. Guests' sheets wait and arrive when it's back. |
 | "This QR code isn't linked to a booth" | The guest scanned something other than your slip or poster. |
 | "This code is not valid" | A typo. Codes never use O, 0, I, 1 or L. |
 | "This code has already been used" | Each code prints one sheet. Give them a new slip. |
