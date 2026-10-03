@@ -10,7 +10,8 @@ Bluetooth print-and-cut sticker printers, which print it and then cut round ever
 sticker, ready to peel.
 
 You don't need to know how to code. Download it, follow the setup guide it opens, and
-you're printing. **[The complete guide](GUIDE.md)** covers everything, with pictures.
+you're printing. New here? Start with the **[10-minute quick start](GUIDE.md#quick-start-ready-in-10-minutes)**.
+**[The complete guide](GUIDE.md)** covers everything, with pictures.
 
 ## Download for Mac
 
@@ -104,8 +105,8 @@ app, choose **Open**, then **Open** again.
 ## Getting started
 
 Sticker Foundry opens in its own window: the **console**, your control panel for the
-booth. Closing the window leaves the booth running (click the Dock icon, or the printer
-icon next to the clock, to bring it back); ⌘Q quits.
+booth. Closing the window leaves the booth running (click the Dock icon, or the Sticker Foundry
+logo next to the clock, to bring it back); ⌘Q quits.
 
 The first time, a **setup guide** walks you through it, one step at a time:
 
@@ -118,6 +119,10 @@ The first time, a **setup guide** walks you through it, one step at a time:
 
 You can go to the next step at any time, even before a printer is connected. Without a
 booth, only images dropped into the incoming folder print.
+
+<img src="images/guide/console-tour.png" alt="The Sticker Foundry console with printers on the left and the queue on the right" width="700">
+
+*The console. The [guide](GUIDE.md#5-a-tour-of-the-console) explains every numbered part.*
 
 **Set up**, at the top of the console, opens the guide again. The
 [complete guide](GUIDE.md) explains the admin page, booth modes, making your own
@@ -140,15 +145,27 @@ the guest fixes it and sends again.
 
 ## When something goes wrong
 
-| You see | What it means | What to do |
-|---|---|---|
-| A printer card says **Offline** | The printer is off, asleep or out of range | Switch it on. It reconnects by itself |
-| A printer card turns **red** | The printer stopped (no paper, no ribbon, a jam...) | Do what the card says, then press its button to clear it |
-| A job is **held** | Sticker Foundry couldn't tell whether that sheet printed | Look in the printer. Came out? **Discard**. Didn't? **Reprint** |
-| **DO NOT reload paper yet** | A job is still waiting inside the printer | Clear the fault first, or the next sheet you load gets used |
-| A guest's code is **refused** | Mistyped, already used, or from another booth | Check the slip. Each code works once |
-| The **Booth** dot is red | No internet | Fix the internet. Guest sheets wait; nothing is lost |
-| No printer cards at all | No printers found yet | Press **Set up** and search again |
+- A printer card says **Offline**
+  - *Why:* The printer is off, asleep or out of range
+  - *Do:* Switch it on. It reconnects by itself
+- A printer card turns **red**
+  - *Why:* The printer stopped (no paper, no ribbon, a jam...)
+  - *Do:* Do what the card says, then press its button to clear it
+- A job is **held**
+  - *Why:* Sticker Foundry couldn't tell whether that sheet printed
+  - *Do:* Look in the printer. Came out? **Discard**. Didn't? **Reprint**
+- **DO NOT reload paper yet**
+  - *Why:* A job is still waiting inside the printer
+  - *Do:* Clear the fault first, or the next sheet you load gets used
+- A guest's code is **refused**
+  - *Why:* Mistyped, already used, or from another booth
+  - *Do:* Check the slip. Each code works once
+- The **Booth** dot is red
+  - *Why:* No internet
+  - *Do:* Fix the internet. Guest sheets wait; nothing is lost
+- **No printer cards at all**
+  - *Why:* No printers found yet
+  - *Do:* Press **Set up** and search again
 
 More in [troubleshooting](GUIDE.md#15-troubleshooting) and
 [questions people ask](GUIDE.md#16-questions-people-ask). Still stuck? Press **?** at the
