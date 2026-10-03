@@ -378,6 +378,6 @@ Where: **Ask me anything**
 
 Asked as: game, runner, sticker running, play, dinosaur, easter egg
 
-It is just for fun and has nothing to do with printing. A sticker jogs along a road at the bottom, and nothing comes at it until you play. Click it, or press Space or the up arrow while it has focus, to play: obstacles come from the right, and the down arrow ducks. The speaker in its corner turns on a soft tick.
+Just for fun, nothing to do with printing. A sticker jogs at the bottom and now and then a cloud says hello. Click the sticker (or press Space) to play; the down arrow ducks.
 
 Where: **The game**
