@@ -62,7 +62,7 @@ Where: **Look at the printer's card**; **Set up, then Search for printers**
 
 Asked as: bluetooth, bluetooth off, turn on bluetooth, bluetooth icon, bluetooth permission, allow bluetooth
 
-The Bluetooth icon by Printers is green when Bluetooth is on and grey when it is off. When it is off, press the icon, or Turn on Bluetooth in the banner. If macOS will not do it, its Bluetooth settings open. Printers reconnect by themselves. If the console shows Allow Bluetooth for Sticker Foundry, press Allow (macOS asks again after every update).
+The Bluetooth icon by Printers is green when on, grey when off. If it is off, press the icon (or Turn on Bluetooth in the banner). If macOS shows Allow Bluetooth for Sticker Foundry, press Allow.
 
 Where: **Bluetooth: green is on, grey is off**; **Turn on Bluetooth**
 
@@ -109,7 +109,11 @@ Where: **Count sheets is on each card**
 
 Asked as: out of paper, no paper, no ribbon, jam, paper jam, i loaded paper
 
-Out of paper: load paper, press I loaded paper and enter the count; the job did not use a sheet and goes back in the queue. No ribbon: fit a cartridge, close the printer, press I fitted a ribbon cartridge. Jam or any other stop: pause the queue, switch the printer off before reaching in, clear it, switch it on, then press I checked this printer: clear fault. Never clear a fault you have not walked over to look at.
+Out of paper or no ribbon: fix it, then press the card's button (I loaded paper, I fitted a ribbon cartridge); the job goes back in the queue. For a jam, pause the queue, switch the printer off, clear it, then press I checked this printer: clear fault. Never clear a fault you have not looked at.
+
+Steps:
+1. Pause the queue, switch the printer off, and clear the jam.
+2. Switch it on, press I checked this printer: clear fault on its card.
 
 Where: **The card has the button to press**; **Pause the whole queue first for a jam**
 
@@ -312,7 +316,7 @@ Where: **Sheets printed**; **Reset the count**
 
 Asked as: update, updates, new version, check for updates, update now, version
 
-Check for updates looks right now. The console also checks by itself every hour while it is open and a window asks when a new version is out (tick Don't ask again for 24 hours to stay quiet for a day). When a newer version is out the button becomes Update now: press it once nothing is printing. Sticker Foundry downloads it, quits, updates and opens again by itself, with your queue, counts and booth as they were.
+Check for updates looks now; the console also checks every hour and asks when one is out. When there is a newer version the button becomes Update now: press it once nothing is printing. It restarts by itself and keeps your queue, counts and booth.
 
 Where: **Check for updates**; **Your version**
 
@@ -362,13 +366,13 @@ Asked as: sleep, lid, switch off, do not, dont, never
 
 Do not switch a printer off while it is printing. Do not let the Mac sleep: keep it plugged in with the lid open.
 
-### The built-in help
+### How to use the app, or where the guide is
 
 Asked as: help, how to use, instructions, manual, guide, tutorial
 
-The ? button at the top opens the full how-to. The public guide with pictures is on the Sticker Foundry releases page on GitHub.
+Just ask me. For a short guide with pictures, see the Sticker Foundry page on GitHub (the releases page, GUIDE.md).
 
-Where: **The ? button**
+Where: **Ask me anything**
 
 ### The little game at the bottom
 

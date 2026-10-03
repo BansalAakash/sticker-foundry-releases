@@ -11,7 +11,7 @@ sticker, ready to peel.
 
 You don't need to know how to code. Download it, follow the setup guide it opens, and
 you're printing. New here? Start with the **[10-minute quick start](GUIDE.md#quick-start-ready-in-10-minutes)**.
-**[The complete guide](GUIDE.md)** covers everything, with pictures.
+**[The short guide](GUIDE.md)** has the essentials, with pictures.
 
 Stuck mid-event? Press **Ask** (top right of the console): type your question in your own words and it
 tells you what to press and rings the button on screen. Prefer your own AI assistant? Give it
@@ -62,10 +62,10 @@ folder inside your home folder** (no admin password needed), and opens it. Allow
 - The **app on the Mac** is the only thing you install. Guests use a web page.
 - Each booth is **Open** (anyone with the QR code prints), **Google sign-in** (a set
   number of sheets per person) or **Slip codes** (a paper slip with a code, one slip, one
-  sheet). See [booth kinds](GUIDE.md#booth-kinds).
+  sheet). See booth kinds (press **Ask**).
 - No phones needed: drop a sticker image into a folder on the Mac and it prints.
 - The printers also print **4 x 6 photos** on photo paper
-  ([photo prints](GUIDE.md#19-photo-prints)).
+  (press **Ask** to learn how).
 
 ---
 
@@ -126,11 +126,10 @@ booth, only images dropped into the incoming folder print.
 
 <img src="images/guide/console-tour.png" alt="The Sticker Foundry console with printers on the left and the queue on the right" width="700">
 
-*The console. The [guide](GUIDE.md#5-a-tour-of-the-console) explains every numbered part.*
+*The console. The [guide](GUIDE.md#the-console-in-8-bullets) has the short tour.*
 
 **Set up**, at the top of the console, opens the guide again. The
-[complete guide](GUIDE.md) explains the admin page, booth modes, making your own
-unlimited code, and everything else.
+[short guide](GUIDE.md) has the essentials. Press **Ask** for anything else.
 
 ## On the day
 
@@ -171,9 +170,8 @@ the guest fixes it and sends again.
   - *Why:* No printers found yet
   - *Do:* Press **Set up** and search again
 
-More in [troubleshooting](GUIDE.md#15-troubleshooting) and
-[questions people ask](GUIDE.md#16-questions-people-ask). Still stuck? Press **?** at the
-top of the console. If something is broken, press **Email logs** in the row at the bottom: Gmail
+More in the [short guide](GUIDE.md). Still stuck? Press **Ask** at the
+top right of the console. If something is broken, press **Email logs** in the row at the bottom: Gmail
 opens in Chrome with a message to the Sticker Foundry team ready, with the latest errors in
 it, for you to add what you saw and send.
 
