@@ -354,7 +354,7 @@ console**.
 
 It works by itself with no internet, from notes built into the app. If you have set a Gemini key (the one for backgrounds, **Generate using Gemini**), it answers in its own words from the same notes plus what the booth is doing right now.
 
-The empty space above the bottom row is just for fun: a small game where a sticker hops over blades. Click it or press **Space** to play.
+The empty space above the bottom row is just for fun: a sticker jogs along a road, and nothing comes at it until you play. Click it or press **Space** to play: blades and paper rolls come from the right, and the down arrow ducks.
 
 Every pop-up (the help, the admin page, the setup guide's windows and the like) fades in and
 out, and closes when you press **Esc**.
