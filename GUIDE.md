@@ -43,11 +43,11 @@ guests print from their phones.
 **3. First print.** Press **Open incoming folder** and drop in a PNG image. It joins the queue and
 prints. It uses one real sheet, so do this once.
 
-## The console in 8 bullets
+## The console in 9 bullets
 
 <img src="images/guide/console-tour.png" alt="The Sticker Foundry console: printer cards, booth, queue, sheet background, and Ask in the header" width="900">
 
-*The console. Header: Admin, Set up, Quit, Ask and the light/dark switch.*
+*The console. Header: Admin, Set up, Wall, Wall seeds, Quit, Ask and the light/dark switch.*
 
 - **Printers:** one card each. **Ready** is good.
 - **Queue:** waiting, printing now and completed sheets.
@@ -56,7 +56,28 @@ prints. It uses one real sheet, so do this once.
 - **Where's my print?** finds one guest's sheet.
 - **Sheet background:** the colour or picture behind the stickers.
 - **Ask:** the helper, top right.
-- **Footer:** pinned to the bottom with a just-for-fun game above it. Click the sticker to play.
+- **Wall** and **Wall seeds:** the sticker wall for a screen at the booth (see below).
+- **Footer:** pinned to the bottom with a just-for-fun game above it. Click the sticker to play. Along the very bottom, a green SNAP · STICK · PRINT strip scrolls by. It is only for show.
+
+## The sticker wall
+
+The wall is a page for a screen at the booth. It shows your sheets in six tilted columns that
+scroll for ever. Now and then a giant word appears behind them, and a "Made with" line with the
+Gemini, AI Studio and Antigravity logos comes in. The Sticker Foundry logo sits bottom right.
+
+<img src="images/guide/sticker-wall.jpg" alt="The sticker wall: columns of sticker sheets on a dark background, a giant green word behind them, the Made with line bottom left, the Sticker Foundry logo bottom right and a green SNAP STICK PRINT strip along the bottom" width="900">
+
+*The wall, with a giant word behind the sheets.*
+
+- Press **Wall** at the top of the console. It opens in the Mac's browser.
+- Drag that window to the booth screen and press **F** for full screen.
+- A device on the same Wi-Fi can open this Mac's address followed by `/wall`.
+- It shows this booth's own sheets first, then your own starter sheets, then ours, up to 30 sheets.
+  Real sheets replace the starter ones as they arrive.
+- To add your own starter sheets, press **Wall seeds** and drop PNG or WebP files with a
+  transparent background into the folder. A flat picture, such as a JPEG, is skipped, and the
+  button tells you which files.
+- A sheet with no transparent background still prints. It just does not show on the wall.
 
 ## Ask the helper
 
