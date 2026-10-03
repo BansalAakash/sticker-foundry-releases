@@ -152,7 +152,7 @@ the guest fixes it and sends again.
 
 More in [troubleshooting](GUIDE.md#15-troubleshooting) and
 [questions people ask](GUIDE.md#16-questions-people-ask). Still stuck? Press **?** at the
-top of the console. If something is broken, press **Email logs** at the bottom: Gmail
+top of the console. If something is broken, press **Email logs** in the row at the bottom: Gmail
 opens in Chrome with a message to the Sticker Foundry team ready, with the latest errors in
 it, for you to add what you saw and send.
 
@@ -160,8 +160,8 @@ it, for you to add what you saw and send.
 
 ## Updating
 
-The console checks for a new version by itself. One button, by the version number at the
-bottom of the console, does the rest: **Check for updates** looks right now, and when a
+The console checks for a new version by itself. The version number is small, beside the name at the top left; one button in the row at the
+bottom of the console does the rest: **Check for updates** looks right now, and when a
 newer version is out it becomes **Update now**. Once nothing is printing, press it:
 Sticker Foundry puts the new version in place and opens again by itself. If macOS asks about Bluetooth again, press **Allow**.
 
