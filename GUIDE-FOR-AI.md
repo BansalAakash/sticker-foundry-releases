@@ -145,17 +145,17 @@ Where: **Open incoming folder**
 
 Asked as: sticker wall, wall, show the wall, second screen, big screen, tv
 
-Press Wall at the top. It opens the sticker wall in your browser: scrolling columns of this booth's sheets. Drag it to the screen at the booth and press F for full screen. A device on the same Wi-Fi can open this Mac's address followed by /wall.
+Press Wall at the top. It opens the sticker wall in your browser: scrolling columns of this booth's sheets. Drag it to the screen at the booth and press F for full screen. For a screen on another device, press the copy icon beside Wall and open that link there, on the same Wi-Fi.
 
-Where: **Wall**
+Where: **Wall**; **Copy the wall's link**
 
 ### Put your own starter sheets on the wall
 
 Asked as: wall seeds, seed sheets, starter sheets, own sheets on the wall, wall folder, add sheets to the wall
 
-Press Wall seeds and drop your own sheets in the folder: PNG or WebP with a transparent background. A flat picture such as a JPEG is skipped, and the button names it. Yours show first, the app's starter sheets fill the rest, and the booth's own sheets replace them as they arrive.
+Press the folder icon beside Wall and drop your own sheets in the folder: PNG or WebP with a transparent background. A flat picture such as a JPEG is skipped, and you are told which. Yours show first, the app's starter sheets fill the rest, and the booth's own sheets replace them as they arrive.
 
-Where: **Wall seeds**
+Where: **The folder icon beside Wall**
 
 ### A guest asks where their print is
 

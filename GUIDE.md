@@ -47,7 +47,7 @@ prints. It uses one real sheet, so do this once.
 
 <img src="images/guide/console-tour.png" alt="The Sticker Foundry console: printer cards, booth, queue, sheet background, and Ask in the header" width="900">
 
-*The console. Header: Admin, Set up, Wall, Wall seeds, Quit, Ask and the light/dark switch.*
+*The console. Header: Admin, Set up, Wall (with a folder and a copy icon beside it), Quit, Ask and the light/dark switch.*
 
 - **Printers:** one card each. **Ready** is good.
 - **Queue:** waiting, printing now and completed sheets.
@@ -56,8 +56,8 @@ prints. It uses one real sheet, so do this once.
 - **Where's my print?** finds one guest's sheet.
 - **Sheet background:** the colour or picture behind the stickers.
 - **Ask:** the helper, top right.
-- **Wall** and **Wall seeds:** the sticker wall for a screen at the booth (see below).
-- **Footer:** pinned to the bottom with a just-for-fun game above it. Click the sticker to play. Along the very bottom, a green SNAP · STICK · PRINT strip scrolls by. It is only for show.
+- **Wall:** the sticker wall for a screen at the booth (see below). The folder icon beside it opens your own starter sheets, and the copy icon copies the wall's link.
+- **Footer:** pinned to the bottom with a just-for-fun game above it. Click the sticker to play.
 
 ## The sticker wall
 
@@ -71,10 +71,10 @@ Gemini, AI Studio and Antigravity logos comes in. The Sticker Foundry logo sits 
 
 - Press **Wall** at the top of the console. It opens in the Mac's browser.
 - Drag that window to the booth screen and press **F** for full screen.
-- A device on the same Wi-Fi can open this Mac's address followed by `/wall`.
+- For a screen on another device, press the copy icon beside **Wall** and open that link there, on the same Wi-Fi.
 - It shows this booth's own sheets first, then your own starter sheets, then ours, up to 30 sheets.
   Real sheets replace the starter ones as they arrive.
-- To add your own starter sheets, press **Wall seeds** and drop PNG or WebP files with a
+- To add your own starter sheets, press the folder icon beside **Wall** and drop PNG or WebP files with a
   transparent background into the folder. A flat picture, such as a JPEG, is skipped, and the
   button tells you which files.
 - A sheet with no transparent background still prints. It just does not show on the wall.
