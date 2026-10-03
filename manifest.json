@@ -1,0 +1,22 @@
+{
+  "app": {
+    "fingerprint": "3e84cbc1b8a0a0a2fc2cfb4639674308c77d2f340eac088ec0b8f09abbe08c06",
+    "tag": "v2.11.0",
+    "version": "2.11.0",
+    "zips": {
+      "Apple-Silicon": "8c9511db843f9a4b0bd5247fdc619dd664b163d65e33293f50e85970825e208d",
+      "Intel": "d1db37f78d8db78788cbef1ab6506a9581cc099fcc185664fa910cccf9e0f1e8"
+    }
+  },
+  "built": "2026-10-03",
+  "min_app": "2.11.0",
+  "python": "3.14",
+  "signature": "bab579e0d245b1e8572440b351022f77668f2a0fed1b4d61e139f610eddc986c1fd42a98b6b75313828949aebfaaea4188151e5d98688c9a5d24fdfef2420e08",
+  "soft": {
+    "file": "Sticker-Foundry-code_4.0.10.zip",
+    "sha256": "7900e5253916b189a6ac2e10fd049360f29e95e2f5ad09e80cddbf59dfc5db33",
+    "size": 670633,
+    "tag": "v4.0.10"
+  },
+  "version": "4.0.10"
+}
