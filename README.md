@@ -13,6 +13,10 @@ You don't need to know how to code. Download it, follow the setup guide it opens
 you're printing. New here? Start with the **[10-minute quick start](GUIDE.md#quick-start-ready-in-10-minutes)**.
 **[The complete guide](GUIDE.md)** covers everything, with pictures.
 
+Stuck mid-event? Press **Ask** (top right of the console): type your question in your own words and it
+tells you what to press and rings the button on screen. Prefer your own AI assistant? Give it
+**[GUIDE-FOR-AI.md](GUIDE-FOR-AI.md)** and ask it anything about the booth.
+
 ## Download for Mac
 
 - **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.11.0/Sticker-Foundry-Apple-Silicon_2.11.0.dmg)**

@@ -4,6 +4,10 @@ Everything you need to run a sticker booth with Sticker Foundry, from installing
 the end of a busy day. No technical knowledge needed. Start with the quick start below.
 Read sections 1 to 5 once before your first event; keep the rest for when you need it.
 
+**Short on time?** Press **Ask** at the top right of the console and type your question. It tells you
+what to press and rings the button on screen. You can also give your own AI assistant
+[GUIDE-FOR-AI.md](GUIDE-FOR-AI.md) and ask it anything about the booth.
+
 ## Contents
 
 0. [Quick start: ready in 10 minutes](#quick-start-ready-in-10-minutes)
@@ -327,12 +331,12 @@ console**.
 
 ## 5. A tour of the console
 
-<img src="images/guide/console-tour.png" alt="The console with ten numbered markers on the parts described below" width="900">
+<img src="images/guide/console-tour.png" alt="The console with ten numbered markers on the parts described below, including the Ask button in the header" width="900">
 
 *The console while a booth is running. The numbers match the list below.*
 
 1. **Sheets printed.** How many sheets this booth has printed. The small ↻ sets it back to zero (it asks first, and there is no undo). The version number is beside the name at the top left.
-2. **Admin, Set up, Quit, ?, and the sun/moon switch.** **Admin** opens the [admin page](#12-the-admin-page). **Set up** brings the setup guide back. **Quit** stops Sticker Foundry cleanly ([section 17](#17-quitting-updating-resetting-and-getting-help)). **?** is a short help page. The switch picks light or dark, and your choice is remembered on every page.
+2. **Admin, Set up, Quit, Ask, ?, and the sun/moon switch.** **Admin** opens the [admin page](#12-the-admin-page). **Set up** brings the setup guide back. **Quit** stops Sticker Foundry cleanly ([section 17](#17-quitting-updating-resetting-and-getting-help)). **Ask** opens the helper described just below the list. **?** is a short help page. The switch picks light or dark, and your choice is remembered on every page.
 3. **Printer cards.** One per printer. See [section 9](#9-the-printer-cards).
 4. **Three small icons.** From the left: **Bluetooth** (green when it is on this Mac, grey when off; press it while off to ask macOS to turn it on), **Sound** (a bell: green when a printer fault will chime, grey and slashed when muted) and **Find printers** (a printer with a magnifying glass: keeps looking for printers you paired in System Settings, until you press it again to stop). For printers that were never paired, use **Set up** → **Search for printers**. In a web browser, a **Turn on alerts** button also shows: press it once and allow notifications. In Sticker Foundry's own window there is nothing to switch on: faults, low paper and printers going offline pop up as Mac notifications, even when the window is closed.
 5. **Booth.** Which booth this Mac prints for. Click the box to choose one. See [section 7](#7-guests-printing-from-their-phones).
@@ -341,6 +345,16 @@ console**.
 8. **The queue.** **Waiting**: sheets in line. Each has **Preview sheet** and **Remove**. **Clear** removes them all (nothing has printed for them, so nothing is wasted, but guests' sheets are thrown away). If the line isn't moving, a note above it says why: the queue is paused, no printers have been found, or no printer is ready. **Printing now**: sheets on a printer right now, and which one. **Completed**: sheets that printed; **Clear** empties the list but the records stay on disk. Two more boxes appear only when needed: **Held** ([section 11](#11-held-jobs-never-reprint-blind)) and **Old jobs - not printed automatically** (same section).
 9. **Sheet background.** The colour, gradient or picture printed behind your stickers. See [Sheet background](#sheet-background).
 10. **The bottom row.** **Photo prints** ([section 19](#19-photo-prints)), **Day report** ([section 20](#20-the-day-report)), **Email logs** and **Check for updates** ([section 17](#17-quitting-updating-resetting-and-getting-help)), and **Reset everything**.
+
+**The Ask helper.** Press **Ask** (the sparkle, between **Quit** and **?**) and a small panel opens in the bottom-right corner. Type a question in your own words, for example "a guest asks where's my print". It answers with plain steps, scrolls to the right button and rings it with a short label. Under the answer, **Show me** rings the button again, and **Open it** presses it for you when that is safe (for example **Admin** or **Set up**; never **Reset everything**, **Quit** or **Clear**). The first time you open it, it suggests common questions such as "A printer says Offline" and "Print a guest's sheet again".
+
+<img src="images/guide/ask-helper.png" alt="The Ask panel open at the bottom right, answering where a guest's print is, with the search box above the queue ringed and labelled" width="900">
+
+*The Ask helper after the question "a guest asks where's my print". The search box is ringed.*
+
+It works by itself with no internet, from notes built into the app. If you have set a Gemini key (the one for backgrounds, **Generate using Gemini**), it answers in its own words from the same notes plus what the booth is doing right now.
+
+The empty space above the bottom row is just for fun: a small game where a sticker hops over blades. Click it or press **Space** to play.
 
 Every pop-up (the help, the admin page, the setup guide's windows and the like) fades in and
 out, and closes when you press **Esc**.
@@ -423,16 +437,21 @@ A guest comes to the desk and asks "where is my print?" Type their **number** (t
 characters shown on their phone), their name or their slip code into the **Where's my
 print?** box above the queue.
 
-<img src="images/guide/find.png" alt="Search results for the word asha: one sheet waiting, number 3 in line, with Print next and Remove buttons, and one already printed" width="560">
+<img src="images/guide/find.png" alt="Search results for the word asha: one sheet waiting, number 3 in line, with Print next and Remove buttons, and one already printed with a Print again button" width="560">
 
 *Search results. You see the full answer; the guest's phone only shows a number and a rough wait.*
+
+<img src="images/guide/find-again.png" alt="The question Print this sheet again, saying the sheet goes to the front of the queue and spends one sheet and its ribbon, with Cancel and Print again, using another sheet buttons" width="560">
+
+*Print again always asks first.*
 
 <img src="images/guide/guide-find-sheet.gif" alt="Short animation: typing asha in the Where's my print box and the results appearing" width="560">
 
 *Typing a name in the search box.*
 
 - It says where the sheet is: waiting (and its place in line), printing, printed (and on which printer), held, or removed.
-- It offers what makes sense: **Print next** (a guest is waiting at the desk), **Remove**, **Reprint** or **Discard**.
+- It offers what makes sense: **Print next** (a guest is waiting at the desk), **Remove**, **Reprint** or **Discard**, and **Print again** for a sheet that already printed.
+- **Print again** is for a sheet that came out wrong or went missing. It uses another sheet and another ribbon panel set, so it asks "Print this sheet again?" first. Press **Print again, using another sheet** to go ahead, or **Cancel**. The copy goes to the front of the queue, and the line under the sheet then says "Printed again" with where it is: waiting (and its place in line), printing now, or printed.
 - The same number is printed small in the bottom margin of each guest's sheet, on the backing paper, so a sheet in the tray can be matched to its guest. The checkbox **Print each guest's number on their sheet** in the **Booth** panel turns this off.
 - If it finds nothing, the sheet never reached this Mac. Check that no other Mac is connected to the booth, then ask the guest to send it again.
 
@@ -929,7 +948,7 @@ starts a second copy.
 
 ## 15. Troubleshooting
 
-**Start by looking at the printer cards.** The colour and the words tell you most of it:
+**Not sure what is wrong? Press Ask** (top right of the console) **and describe the problem** in your own words. It tells you what to press and rings the button. Or start by looking at the printer cards. The colour and the words tell you most of it:
 
 - **Green, Ready or Printing**: all well. See [section 9](#9-the-printer-cards).
 - **Yellow, Paused**: you or someone paused it. Press **Resume**.
