@@ -141,6 +141,22 @@ Press Open incoming folder and drop your artwork in. It joins the queue and prin
 
 Where: **Open incoming folder**
 
+### Show the sticker wall on a screen
+
+Asked as: sticker wall, wall, show the wall, second screen, big screen, tv
+
+Press Wall at the top. It opens the sticker wall in your browser: scrolling columns of this booth's sheets. Drag it to the screen at the booth and press F for full screen. A device on the same Wi-Fi can open this Mac's address followed by /wall.
+
+Where: **Wall**
+
+### Put your own starter sheets on the wall
+
+Asked as: wall seeds, seed sheets, starter sheets, own sheets on the wall, wall folder, add sheets to the wall
+
+Press Wall seeds and drop your own sheets in the folder: PNG or WebP with a transparent background. A flat picture such as a JPEG is skipped, and the button names it. Yours show first, the app's starter sheets fill the rest, and the booth's own sheets replace them as they arrive.
+
+Where: **Wall seeds**
+
 ### A guest asks where their print is
 
 Asked as: where is my print, wheres my print, where's my print, find a sheet, guest number, guest asks

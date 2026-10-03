@@ -126,7 +126,7 @@ booth, only images dropped into the incoming folder print.
 
 <img src="images/guide/console-tour.png" alt="The Sticker Foundry console with printers on the left and the queue on the right" width="700">
 
-*The console. The [guide](GUIDE.md#the-console-in-8-bullets) has the short tour.*
+*The console. The [guide](GUIDE.md#the-console-in-9-bullets) has the short tour.*
 
 **Set up**, at the top of the console, opens the guide again. The
 [short guide](GUIDE.md) has the essentials. Press **Ask** for anything else.
@@ -145,6 +145,18 @@ Keep the charger in and the lid open.
 
 A sheet the booth turns away (stickers too close to cut, say) doesn't use up the slip:
 the guest fixes it and sends again.
+
+## The sticker wall
+
+For a screen at the booth. Press **Wall** at the top of the console: it opens in your browser,
+showing this booth's sticker sheets in scrolling columns, with now and then a giant word behind
+them. Drag that window to the screen and press
+**F** for full screen. A device on the same Wi-Fi can open this Mac's address followed by `/wall`.
+
+The wall shows up to 30 sheets. Until the booth has made that many of its own, the rest is
+filled with starter sheets. To use your own, press **Wall seeds** and drop PNG or WebP files with a transparent
+background into the folder. Yours show first, ours fill what is left, and the booth's own
+sheets replace them as they arrive. A flat picture, such as a JPEG, is skipped, and the button names the files it skipped.
 
 ## When something goes wrong
 
