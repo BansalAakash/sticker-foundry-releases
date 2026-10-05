@@ -175,7 +175,7 @@ Where: **Type the guest's number here**
 
 Asked as: print again, reprint, print next, do it again, came out wrong, bad print
 
-Find the sheet with the search box above the queue. A waiting sheet offers Print next (goes first) and Remove. A sheet that already printed offers Print again, which asks first because it uses another sheet and ribbon. A held sheet offers Reprint or Discard.
+Find the sheet with the search box above the queue. A waiting sheet offers Print next (goes first) and Remove. A sheet that already printed offers Print again, which asks first. A held sheet offers Reprint or Discard.
 
 Where: **Search for the sheet here**
 
@@ -183,7 +183,7 @@ Where: **Search for the sheet here**
 
 Asked as: held, held job, held up, needs attention, might have printed, reprint or discard
 
-A held job is one where the printer may or may not have used a sheet. Look at the output. If it came out, press Discard. If it did not, press Reprint (this uses another sheet).
+A held job is one where the printer may or may not have used a sheet. Look at the output. If it came out, press Discard. If it did not, press Reprint.
 
 Where: **Held jobs appear here**
 
@@ -191,7 +191,7 @@ Where: **Held jobs appear here**
 
 Asked as: old jobs, left over, approve, found in an old queue, stale jobs, from earlier
 
-Old jobs are ones left over from more than two hours ago. Usually press Discard. Approve (1 sheet) prints one.
+Old jobs are ones left over from more than two hours ago. Usually press Discard. Approve prints one.
 
 Where: **Old jobs appear here**
 
