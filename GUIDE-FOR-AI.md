@@ -220,7 +220,7 @@ Where: **Click here to choose a booth**
 
 Asked as: create booth, new booth, make a booth, add booth, admin, admin page
 
-Booths are made on the admin page: press Admin, top right. It asks for the admin password. Create booth is also first in the Booth drop-down once you have typed the password.
+Booths are made on the admin page: press Admin, top right. It asks for the admin password. Create booth is also first in the Booth drop-down once you have typed the password. The booth's ID is its name in lowercase letters and digits joined by dashes (Gurgaon Mall becomes gurgaon-mall), and a name that is already used is refused: pick a different one.
 
 Where: **Press Admin**
 
