@@ -64,22 +64,22 @@ prints.
 
 If the blade cuts beside the stickers instead of round them, align the cutter.
 
-<img src="images/guide/printer-menu.png" alt="The menu of a printer card, open, with Count sheets, Align cutter, Restore factory alignment and Printer details" width="420">
+<img src="images/guide/printer-menu.png" alt="The menu of a printer card, open, with Set sheet count, Align cutter, Restore factory alignment and Printer details" width="420">
 
 *On the printer's card, press the ... button, then Align cutter.*
 
-1. **Print the sheet.** Press **Print alignment sheet**. The printer prints one test sheet with rulers along its edges and cuts four long lines that cross at the corners, A, B, C and D.
-2. **Read the corners.** Take the sheet out. For each corner, find where the cut lines meet the rulers and type the numbers in millimetres. X is across, on the top or bottom ruler. Y is down, on the left or right ruler. The boxes start at the expected values (5 and 75 across, 5 and 155 down), so change only the ones that differ. Press **Apply alignment**. The printer remembers the fix.
+1. **Print.** Press **Print test sheet**. The printer prints one test sheet with rulers along its edges. It also cuts four long lines that meet at the corners A, B, C and D.
+2. **Read.** Take the sheet out. At each corner, read the ruler where the red ring is. Type the number in the box. Change only the boxes that differ. Press **Apply**. The printer saves the fix.
 
-<img src="images/guide/align-readings.png" alt="The Align cutter window at step 2, Read the corners: the alignment sheet picture and boxes for corners A, B, C and D" width="560">
+<img src="images/guide/align-readings.png" alt="The Align cutter window at step 2, Read: a picture of each corner with its red ring, and X and Y boxes for corners A, B, C and D" width="560">
 
-*Step 2: type where each cut corner meets the rulers.*
+*Step 2: the red ring is where you read.*
 
-3. **Check (optional).** Press **Check on the same sheet**. Put the same sheet back in the tray, alone, printed side up. The printer only cuts it again. The new corners should sit on 5, 75, 5 and 155.
+3. **Check (optional).** Press **Check on same sheet**. Put the same sheet back in the tray, alone, printed side up. The printer only cuts it again, and does not print. The new corners should sit on 5, 75, 5 and 155.
 
-<img src="images/guide/align-check.png" alt="The Align cutter window at step 3, after the check: the new corner cuts should sit on 5, 75, 5 and 155" width="560">
+<img src="images/guide/align-check.png" alt="The Align cutter window after Apply: the saved alignment, with Done and Check on same sheet" width="560">
 
-*Step 3: the check says where the new corners should sit.*
+*After Apply: the fix is saved on the printer.*
 
 Cuts look worse? Press **...** on the card, then **Restore factory alignment**.
 

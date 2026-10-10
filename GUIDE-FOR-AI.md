@@ -97,11 +97,11 @@ Steps:
 
 Where: **Use the card's Pause button**
 
-### Count sheets (paper warnings)
+### Set sheet count (paper warnings)
 
-Asked as: count sheets, sheet count, update sheet count, how many sheets left, stop counting, paper warning
+Asked as: set sheet count, count sheets, sheet count, update sheet count, how many sheets left, stop counting
 
-Open a printer's three dots and press Count sheets, then enter how many sheets you loaded. While it counts, the card shows how many are left. Sticker Foundry warns you before they run out and stops sending sheets to that printer at zero. Printers cannot report paper, so this is only your count. Stop counting, in the same menu, turns it off.
+Open a printer's three dots and press Set sheet count, then enter how many sheets you loaded. While it counts, the card shows how many are left. Sticker Foundry warns you before they run out and stops sending sheets to that printer at zero. Printers cannot report paper, so this is only your count. Stop counting, in the same menu, turns it off.
 
 Where: **The three dots on each card**
 
@@ -372,13 +372,13 @@ Where: **Dark or light**
 
 Asked as: align cutter, alignment, cut is off, cut offset, blade misaligned, print and cut not lined up
 
-If the blade cuts beside the print, press the three dots on that printer's card, then Align cutter. It prints one test sheet, you read where its four cut lines meet the rulers, and the printer remembers the fix. Then you can check it on the same sheet.
+If the blade cuts beside the print, press the three dots on that printer's card, then Align cutter. It prints one test sheet, you read where its four cut lines meet the rulers, and the printer remembers the fix. Then you can check it on same sheet, which only cuts.
 
 Steps:
 1. Press the three dots on the card, then Align cutter.
-2. Press Print alignment sheet.
-3. Read where each cut line meets the ruler (the red dots in the picture). Change only boxes that differ.
-4. Press Apply alignment, then Check on the same sheet (optional).
+2. Press Print test sheet.
+3. Read where each cut line meets the ruler, inside the red ring. Change only boxes that differ.
+4. Press Apply, then Check on same sheet (optional).
 
 Where: **The three dots on the printer's card**
 
