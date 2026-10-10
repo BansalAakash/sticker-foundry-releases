@@ -33,7 +33,8 @@ curl -fsSL https://github.com/BansalAakash/sticker-foundry-releases/releases/lat
 ```
 
 **2. Follow the setup guide.** It opens by itself. Switch the printers on, put them near the
-Mac and press **Search for printers**. Then load paper and ribbon, and pick your booth if
+Mac. Switch a printer on near the Mac and the console finds and connects it by itself. If one
+does not appear, press **Search for printers**. Then load paper and ribbon, and pick your booth if
 guests print from their phones.
 
 <img src="images/guide/setup-2-printers.png" alt="The Printers step of the setup guide: two printers found, each marked Connected" width="520">
@@ -63,7 +64,7 @@ prints.
 
 If the blade cuts beside the stickers instead of round them, align the cutter.
 
-<img src="images/guide/printer-menu.png" alt="The menu of a printer card, open, with Align cutter, Restore factory alignment and Printer details" width="420">
+<img src="images/guide/printer-menu.png" alt="The menu of a printer card, open, with Count sheets, Align cutter, Restore factory alignment and Printer details" width="420">
 
 *On the printer's card, press the ... button, then Align cutter.*
 

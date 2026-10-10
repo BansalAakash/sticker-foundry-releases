@@ -114,7 +114,7 @@ logo next to the clock, to bring it back); ⌘Q quits.
 
 The first time, a **setup guide** walks you through it, one step at a time:
 
-1. **Printers.** Switch them on, put them near the Mac and press **Search for printers**.
+1. **Printers.** Switch them on and keep them near the Mac. Switch a printer on near the Mac and the console finds and connects it by itself. If one does not appear, press **Search for printers**.
 2. **Paper.** Load sticker sheets. Optionally type how many, and Sticker Foundry warns
    you before they run out. Leave it empty and printing works the same.
 3. **Booth.** Type the admin password and pick or make your booth, or paste the
@@ -147,7 +147,7 @@ booth, only images dropped into the incoming folder print.
 2. At a Slip codes booth, hand each guest **one slip** as they arrive.
 3. Guests scan the QR code, make their stickers and press **Send**. Sheets appear in the
    console's queue and print on their own.
-4. Watch the sheet counts, and reload paper before a printer runs out.
+4. If you count sheets, watch the count on each card, and reload paper before a printer runs out.
 
 **Don't let the Mac sleep.** Bluetooth stops when it does, and printing stops with it.
 Keep the charger in and the lid open.
@@ -189,6 +189,7 @@ sheets replace them as they arrive. A flat picture, such as a JPEG, is skipped, 
   - *Do:* Fix the internet. Guest sheets wait; nothing is lost
 - **No printer cards at all**
   - *Why:* No printers found yet
+  - *Do:* Switch a printer on near the Mac and the console finds and connects it by itself. Wait a few seconds; if still nothing, press **Search for printers**
   - *Do:* Press **Set up** and search again
 
 More in the [short guide](GUIDE.md). Still stuck? Press **Ask** at the

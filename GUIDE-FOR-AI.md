@@ -28,20 +28,20 @@ Sticker Foundry: a macOS app that runs a sticker print-and-cut booth. The consol
 
 Asked as: connect printer, pair printer, add printer, new printer, set up printer, search for printers
 
-Set up finds, pairs and connects printers for you.
+Finding and connecting printers is automatic. Switch a printer on near the Mac and the console finds and connects it by itself, with no button to press.
 
 Steps:
 1. Switch each printer on and keep it close to this Mac.
-2. Press Set up, top right.
-3. Press Search for printers.
+2. Wait a few seconds: its card appears and connects by itself.
+3. Still nothing after a minute? Press Set up, top right, then Search for printers (the fallback).
 
 Where: **Press Set up**; **Printers appear here**
 
-### Find printers already paired in macOS
+### Find printers now (optional)
 
 Asked as: find printers, magnifying glass, scan, scan bluetooth, already paired, paired in system settings
 
-The printer icon with a magnifying glass (Find printers) finds printers already paired in System Settings. It keeps looking until you press it again to stop.
+Printers switched on near this Mac are found and connected automatically, so you do not need this. The printer icon with a magnifying glass (Find printers) looks again straight away, for printers already paired in System Settings too. It keeps looking until you press it again to stop.
 
 Where: **Find printers**
 
@@ -54,7 +54,7 @@ A printer that dropped or slept reconnects by itself, so most of the time you on
 Steps:
 1. Check the printer is switched on and near the Mac.
 2. Wait a moment: it reconnects by itself.
-3. Still offline? Press Set up, then Search for printers.
+3. Still offline after a minute? Press Set up, then Search for printers to look for it now.
 
 Where: **Look at the printer's card**; **Set up, then Search for printers**
 
@@ -92,7 +92,7 @@ Steps:
 1. Press Pause on the printer's card.
 2. Wait for Paused - safe to open.
 3. Change the paper and the ribbon together.
-4. Press Update sheet count and enter how many sheets you loaded.
+4. Open the printer's three dots, press Update sheet count and enter how many sheets you loaded.
 5. Press Resume.
 
 Where: **Use the card's Pause button**
@@ -101,9 +101,9 @@ Where: **Use the card's Pause button**
 
 Asked as: count sheets, sheet count, update sheet count, how many sheets left, stop counting, paper warning
 
-Press Count sheets on a printer's card and enter how many sheets you loaded. Sticker Foundry then warns you before they run out and stops sending sheets to that printer at zero. Printers cannot report paper, so this is only your count. Stop counting turns it off.
+Open a printer's three dots and press Count sheets, then enter how many sheets you loaded. While it counts, the card shows how many are left. Sticker Foundry warns you before they run out and stops sending sheets to that printer at zero. Printers cannot report paper, so this is only your count. Stop counting, in the same menu, turns it off.
 
-Where: **Count sheets is on each card**
+Where: **The three dots on each card**
 
 ### Out of paper, no ribbon, or a jam
 
@@ -398,7 +398,7 @@ Where: **The three dots on the printer's card**
 
 Asked as: printer details, battery, ink left, ribbon left, firmware, serial number
 
-A card shows the battery and the ink left when the printer reports them, and nothing when it does not. For firmware, serial number, counts and when the cutter was last aligned, press the three dots on the card, then Printer details.
+A card shows the battery and the ink left when the printer reports them, and nothing when it does not. For firmware, serial number, counts and when the cutter was last aligned, press the three dots on the card, then Printer details. That opens a window over the page with those details.
 
 Where: **The cards, and the three dots on each**
 
