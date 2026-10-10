@@ -78,7 +78,7 @@ Where: **The bell: green is sound on**; **Turn on alerts**
 
 Asked as: card colour, card color, green card, red card, yellow card, what does red mean
 
-Green means ready or printing. Yellow means paused. Red means it needs you, and the card says what to do. No colour means connecting, offline, Bluetooth off, or it needs a sheet count.
+The stripe down the left edge of a card is its colour. Green means ready, blue printing, pink cutting, yellow paused, red needs you (the card says what to do). No stripe means connecting, offline, Bluetooth off, or it needs a sheet count.
 
 Where: **The printer cards**
 
@@ -372,9 +372,59 @@ Where: **Dark or light**
 
 Asked as: blade, blade pressure, cutting pressure, cut too deep, does not cut through, thin sheets
 
-The small dot in the bottom-right corner of the page sets the blade pressure. Dark is the default (for the official sheets). Lit is light, for thinner sheets. It is almost invisible on purpose.
+Open Cutting, under Sheets, and use Light blade pressure. Off is the default, for the official sheets. On is for thinner sheets.
 
-Where: **The blade-pressure dot**
+Where: **Open Cutting, then Light blade pressure**
+
+### The cut is off from the print (Align cutter)
+
+Asked as: align cutter, alignment, cut is off, cut offset, blade misaligned, print and cut not lined up
+
+If the blade cuts beside the print, press the three dots on that printer's card, then Align cutter. It prints one test sheet (one sheet used), you read where its four cut lines meet the rulers, and the printer remembers the fix. Then you can check it on the same sheet, with no new sheet.
+
+Steps:
+1. Press the three dots on the card, then Align cutter.
+2. Press Print alignment sheet (it uses 1 sheet).
+3. Read where each cut line meets the ruler (the red dots in the picture). Change only boxes that differ.
+4. Press Apply alignment, then Check on the same sheet (optional).
+
+Where: **The three dots on the printer's card**
+
+### Put the cutter back to the factory alignment
+
+Asked as: restore factory alignment, factory alignment, undo alignment, reset cutter, reset alignment, cut worse after aligning
+
+Press the three dots on the printer's card, then Restore factory alignment. It uses no paper and removes any correction made with Align cutter. Use it if cuts look worse after aligning.
+
+Steps:
+1. Press the three dots on the card.
+2. Press Restore factory alignment and confirm.
+
+Where: **The three dots on the printer's card**
+
+### Printer details: battery, ink, firmware, serial number
+
+Asked as: printer details, battery, ink left, ribbon left, firmware, serial number
+
+A card shows the battery and the ink left when the printer reports them, and nothing when it does not. For firmware, serial number, counts and when the cutter was last aligned, press the three dots on the card, then Printer details.
+
+Where: **The cards, and the three dots on each**
+
+### Corner overcut: pointy stickers that will not peel
+
+Asked as: corner overcut, overcut, sharp corners, pointy, corners stick, hard to peel
+
+Adds a short extra cut at sharp corners so pointy stickers peel cleanly. Open Cutting, under Sheets, and switch on Corner overcut. Try it on one sheet first.
+
+Where: **Open Cutting, then Corner overcut**
+
+### Use a USB cable instead of Bluetooth
+
+Asked as: usb, usb cable, prefer usb, wired, cable, bluetooth keeps dropping
+
+Open Cutting, under Sheets, and switch on Prefer USB. A printer that is plugged in then connects by cable instead of Bluetooth. It is experimental, so keep Bluetooth for a busy event until you have tried it.
+
+Where: **Open Cutting, then Prefer USB**
 
 ### Things not to do
 

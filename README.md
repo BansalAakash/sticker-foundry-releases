@@ -19,8 +19,8 @@ tells you what to press and rings the button on screen. Prefer your own AI assis
 
 ## Download for Mac
 
-- **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.11.0/Sticker-Foundry-Apple-Silicon_2.11.0.dmg)**
-- **[Intel](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v2.11.0/Sticker-Foundry-Intel_2.11.0.dmg)**
+- **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v5.0.0/Sticker-Foundry-Apple-Silicon_5.0.0.dmg)**
+- **[Intel](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v5.0.0/Sticker-Foundry-Intel_5.0.0.dmg)**
 
 Not sure which? Apple menu → **About This Mac**: "Chip: Apple M…" is Apple Silicon;
 "Processor: … Intel" is Intel. macOS 12 or later. No account needed.
@@ -130,6 +130,15 @@ booth, only images dropped into the incoming folder print.
 
 **Set up**, at the top of the console, opens the guide again. The
 [short guide](GUIDE.md) has the essentials. Press **Ask** for anything else.
+
+## New in 5.0
+
+- **Align the cutter.** If cuts land beside the print, press **...** on the printer's card, then **Align cutter**. It uses one sheet, and you can check it on the same sheet without using another.
+- **Clearer printer problems.** A card now names the problem, such as a paper jam or an ink cartridge problem.
+- **Battery and ink** show on the printer card when the printer reports them.
+- **Corner overcut** (under **Cutting**): pointy stickers peel more cleanly. Off by default.
+- **USB cable** (under **Cutting**): experimental, off by default.
+- **A refreshed look.**
 
 ## On the day
 
