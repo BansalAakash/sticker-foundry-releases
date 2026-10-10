@@ -109,7 +109,7 @@ Where: **The three dots on each card**
 
 Asked as: out of paper, no paper, no ribbon, jam, paper jam, i loaded paper
 
-Out of paper or no ribbon: fix it, then press the card's button (I loaded paper, I fitted a ribbon cartridge); the job goes back in the queue. For a jam, pause the queue, switch the printer off, clear it, then press I checked this printer: clear fault. Never clear a fault you have not looked at.
+Out of paper: load paper and press I loaded paper; the same sheet carries on (or Use another printer). No ribbon: fit one, press I fitted a ribbon cartridge. For a jam, pause the queue, switch the printer off, clear it, then press I checked this printer: clear fault. Never clear a fault you have not looked at.
 
 Steps:
 1. Pause the queue, switch the printer off, and clear the jam.
