@@ -208,6 +208,10 @@ Sticker Foundry puts the new version in place and opens again by itself, always 
 
 Quicker: the logo in the menu bar has **Check for Updates**. It installs a newer version straight away.
 
+Tick **Update Automatically** in that menu and Sticker Foundry installs each new version by itself, as soon as it is out. It never updates while a sheet is printing. It is off until you tick it.
+
+The same menu has **Keep Printers Awake**, on by default so no printer switches itself off during an event. Untick it after the event to let them switch off after 20 minutes idle.
+
 You can also update by hand: download the new version from the same link and drag it
 into Applications, replacing the old one. macOS stops a new version once, like the first
 time: do steps 2 to 4 of [Install](#install-once-per-mac) again. Installed with the one
