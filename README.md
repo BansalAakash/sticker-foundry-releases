@@ -19,8 +19,8 @@ tells you what to press and rings the button on screen. Prefer your own AI assis
 
 ## Download for Mac
 
-- **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v5.0.0/Sticker-Foundry-Apple-Silicon_5.0.0.dmg)**
-- **[Intel](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v5.0.0/Sticker-Foundry-Intel_5.0.0.dmg)**
+- **[Apple Silicon (M1 or newer)](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v5.0.5/Sticker-Foundry-Apple-Silicon_5.0.5.dmg)**
+- **[Intel](https://github.com/BansalAakash/sticker-foundry-releases/releases/download/v5.0.5/Sticker-Foundry-Intel_5.0.5.dmg)**
 
 Not sure which? Apple menu → **About This Mac**: "Chip: Apple M…" is Apple Silicon;
 "Processor: … Intel" is Intel. macOS 12 or later. No account needed.
@@ -204,7 +204,9 @@ it, for you to add what you saw and send.
 The console checks for a new version by itself. The version number is small, beside the name at the top left; one button in the row at the
 bottom of the console does the rest: **Check for updates** looks right now, and when a
 newer version is out the message that appears has an **Update now** button, and the button in the row becomes **Update now** too. Once nothing is printing, press either:
-Sticker Foundry puts the new version in place and opens again by itself. If macOS asks about Bluetooth again, press **Allow**.
+Sticker Foundry puts the new version in place and opens again by itself, always on the newest version. If macOS asks about Bluetooth again, press **Allow**.
+
+Quicker: the logo in the menu bar has **Check for Updates**. It installs a newer version straight away.
 
 You can also update by hand: download the new version from the same link and drag it
 into Applications, replacing the old one. macOS stops a new version once, like the first

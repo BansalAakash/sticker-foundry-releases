@@ -332,7 +332,7 @@ Where: **Sheets printed**; **Reset the count**
 
 Asked as: update, updates, new version, check for updates, update now, version
 
-Check for updates looks now. A quick message says you are up to date, or which version is out, with an Update now button on it; the console also checks every hour and asks. Press Update now once nothing is printing. It restarts by itself and keeps your queue, counts and booth.
+Check for updates looks now and offers Update now when a newer version is out. Press it once nothing is printing: it restarts by itself on the newest version and keeps your queue, counts and booth. Quicker: Check for Updates in the menu bar logo installs it straight away.
 
 Where: **Check for updates**; **Your version**
 
