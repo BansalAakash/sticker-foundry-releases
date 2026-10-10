@@ -208,6 +208,8 @@ Sticker Foundry puts the new version in place and opens again by itself, always 
 
 Quicker: the logo in the menu bar has **Check for Updates**. It installs a newer version straight away.
 
+After every update, a **What's new** list shows everything that changed since the version you had.
+
 Tick **Update Automatically** in that menu and Sticker Foundry installs each new version by itself, as soon as it is out. It never updates while a sheet is printing. It is off until you tick it.
 
 The same menu has **Keep Printers Awake**, on by default so no printer switches itself off during an event. Untick it after the event to let them switch off after 20 minutes idle.
