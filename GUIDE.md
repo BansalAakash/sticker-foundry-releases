@@ -75,11 +75,7 @@ If the blade cuts beside the stickers instead of round them, align the cutter.
 
 *Step 2: the red ring is where you read.*
 
-3. **Check (optional).** Press **Check on same sheet**. Put the same sheet back in the tray, alone, printed side up. The printer only cuts it again, and does not print. The new corners should sit on 5, 75, 5 and 155.
-
-<img src="images/guide/align-check.png" alt="The Align cutter window after Apply: the saved alignment, with Done and Check on same sheet" width="560">
-
-*After Apply: the fix is saved on the printer.*
+3. **Confirm: print one real sticker sheet on fresh paper.** Use a new sheet, not the test sheet. Then check where the cut lands.
 
 Cuts look worse? Press **...** on the card, then **Restore factory alignment**.
 

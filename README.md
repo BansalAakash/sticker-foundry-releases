@@ -133,7 +133,7 @@ booth, only images dropped into the incoming folder print.
 
 ## New in 5.0
 
-- **Align the cutter.** If cuts land beside the print, press **...** on the printer's card, then **Align cutter**. You can check it on the same sheet afterwards.
+- **Align the cutter.** If cuts land beside the print, press **...** on the printer's card, then **Align cutter**. To confirm it, print one real sticker sheet on fresh paper.
 - **Clearer printer problems.** A card now names the problem, such as a paper jam or an ink cartridge problem.
 - **Battery and ink** show on the printer card when the printer reports them.
 - **Corner overcut** is always on: sharp corners get a short extra cut, so pointy stickers peel more cleanly.

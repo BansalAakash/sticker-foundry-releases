@@ -380,13 +380,13 @@ Where: **Dark or light**
 
 Asked as: align cutter, alignment, cut is off, cut offset, blade misaligned, print and cut not lined up
 
-If the blade cuts beside the print, press the three dots on that printer's card, then Align cutter. It prints one test sheet, you read where its four cut lines meet the rulers, and the printer remembers the fix. Then you can check it on same sheet, which only cuts.
+If the blade cuts beside the print, press the three dots on that printer's card, then Align cutter. It prints one test sheet, you read where its four cut lines meet the rulers, and the printer remembers the fix. To confirm it, print one real sticker sheet on fresh paper.
 
 Steps:
 1. Press the three dots on the card, then Align cutter.
 2. Put a sticker sheet in the tray, then press Print test sheet.
 3. Read where each cut line meets the ruler, inside the red ring. Change only boxes that differ.
-4. Press Apply, then Check on same sheet (optional).
+4. Press Apply, then Done. To confirm, print one real sticker sheet on fresh paper.
 
 Where: **The three dots on the printer's card**
 
