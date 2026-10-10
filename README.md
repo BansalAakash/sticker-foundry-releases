@@ -44,7 +44,7 @@ folder inside your home folder** (no admin password needed), and opens it. Allow
 
 - A **Mac** with macOS 12 or later, Apple Silicon or Intel.
 - One or more Bluetooth print-and-cut **sticker printers**, with **4 x 7 inch sticker
-  sheets** and ink ribbon. Each print uses one sheet and one ribbon panel.
+  sheets** and ink ribbon.
 - **Internet** on the Mac, if guests will print from their phones.
 - For guests' phones: the **admin password**, or a **console code** for your booth from
   whoever runs your booths.
@@ -133,11 +133,11 @@ booth, only images dropped into the incoming folder print.
 
 ## New in 5.0
 
-- **Align the cutter.** If cuts land beside the print, press **...** on the printer's card, then **Align cutter**. It uses one sheet, and you can check it on the same sheet without using another.
+- **Align the cutter.** If cuts land beside the print, press **...** on the printer's card, then **Align cutter**. You can check it on the same sheet afterwards.
 - **Clearer printer problems.** A card now names the problem, such as a paper jam or an ink cartridge problem.
 - **Battery and ink** show on the printer card when the printer reports them.
-- **Corner overcut** (under **Cutting**): pointy stickers peel more cleanly. Off by default.
-- **USB cable** (under **Cutting**): experimental, off by default.
+- **Corner overcut** is always on: sharp corners get a short extra cut, so pointy stickers peel more cleanly.
+- **USB cable:** plug a printer in and the console uses the cable; it falls back to Bluetooth if the cable link does not work. Experimental.
 - **A refreshed look.**
 
 ## On the day

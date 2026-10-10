@@ -13,7 +13,7 @@ How to answer:
   https://github.com/BansalAakash/sticker-foundry-releases/blob/main/GUIDE.md
 - Never tell someone to clear a printer fault they have not looked at, to switch a printer off while it
   prints, or to force-quit the app while printing.
-- Printing a sheet again, or reprinting a held sheet, uses another sheet of paper and ribbon: say so.
+- Printing a sheet again, or reprinting a held sheet, never happens by itself: it takes a button press.
 
 Inside the console there is also an **Ask** button (top right) with a built-in helper that answers from these
 same notes and points at the button on screen.
@@ -368,23 +368,15 @@ The switch at the top right changes between dark and light. It is remembered on 
 
 Where: **Dark or light**
 
-### Blade pressure
-
-Asked as: blade, blade pressure, cutting pressure, cut too deep, does not cut through, thin sheets
-
-Open Cutting, under Sheets, and use Light blade pressure. Off is the default, for the official sheets. On is for thinner sheets.
-
-Where: **Open Cutting, then Light blade pressure**
-
 ### The cut is off from the print (Align cutter)
 
 Asked as: align cutter, alignment, cut is off, cut offset, blade misaligned, print and cut not lined up
 
-If the blade cuts beside the print, press the three dots on that printer's card, then Align cutter. It prints one test sheet (one sheet used), you read where its four cut lines meet the rulers, and the printer remembers the fix. Then you can check it on the same sheet, with no new sheet.
+If the blade cuts beside the print, press the three dots on that printer's card, then Align cutter. It prints one test sheet, you read where its four cut lines meet the rulers, and the printer remembers the fix. Then you can check it on the same sheet.
 
 Steps:
 1. Press the three dots on the card, then Align cutter.
-2. Press Print alignment sheet (it uses 1 sheet).
+2. Press Print alignment sheet.
 3. Read where each cut line meets the ruler (the red dots in the picture). Change only boxes that differ.
 4. Press Apply alignment, then Check on the same sheet (optional).
 
@@ -394,7 +386,7 @@ Where: **The three dots on the printer's card**
 
 Asked as: restore factory alignment, factory alignment, undo alignment, reset cutter, reset alignment, cut worse after aligning
 
-Press the three dots on the printer's card, then Restore factory alignment. It uses no paper and removes any correction made with Align cutter. Use it if cuts look worse after aligning.
+Press the three dots on the printer's card, then Restore factory alignment. It removes any correction made with Align cutter. Use it if cuts look worse after aligning.
 
 Steps:
 1. Press the three dots on the card.
@@ -409,22 +401,6 @@ Asked as: printer details, battery, ink left, ribbon left, firmware, serial numb
 A card shows the battery and the ink left when the printer reports them, and nothing when it does not. For firmware, serial number, counts and when the cutter was last aligned, press the three dots on the card, then Printer details.
 
 Where: **The cards, and the three dots on each**
-
-### Corner overcut: pointy stickers that will not peel
-
-Asked as: corner overcut, overcut, sharp corners, pointy, corners stick, hard to peel
-
-Adds a short extra cut at sharp corners so pointy stickers peel cleanly. Open Cutting, under Sheets, and switch on Corner overcut. Try it on one sheet first.
-
-Where: **Open Cutting, then Corner overcut**
-
-### Use a USB cable instead of Bluetooth
-
-Asked as: usb, usb cable, prefer usb, wired, cable, bluetooth keeps dropping
-
-Open Cutting, under Sheets, and switch on Prefer USB. A printer that is plugged in then connects by cable instead of Bluetooth. It is experimental, so keep Bluetooth for a busy event until you have tried it.
-
-Where: **Open Cutting, then Prefer USB**
 
 ### Things not to do
 

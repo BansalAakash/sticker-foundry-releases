@@ -41,54 +41,46 @@ guests print from their phones.
 *Two printers found and connected.*
 
 **3. First print.** Press **Open incoming folder** and drop in a PNG image. It joins the queue and
-prints. It uses one real sheet, so do this once.
+prints.
 
 ## The console in 9 bullets
 
-<img src="images/guide/console-tour.png" alt="The Sticker Foundry console: two printer cards with a green stripe on the left, booth, queue, and the Sheets panel with the Cutting switches open" width="900">
+<img src="images/guide/console-tour.png" alt="The Sticker Foundry console: two printer cards with a green stripe on the left, booth, queue, and the Sheets panel with the background" width="900">
 
 *The console. Header: the sheet count, then Admin, Set up and Wall (with a folder and a copy icon beside it), then Ask, the light/dark switch and Quit.*
 
-- **Printers:** one card each. **Ready** is good. A coloured stripe on the left edge shows how it is doing, and a **Fault** badge appears if it stops. Small battery, ink and USB marks show only when the printer reports them. The **...** button on a card opens its menu.
+- **Printers:** one card each. **Ready** is good. A coloured stripe on the left edge shows how it is doing, and a **Fault** badge appears if it stops. Small battery, ink and USB marks show only when the printer reports them. Plug a printer in with a USB cable and the console uses the cable; it falls back to Bluetooth if the cable link does not work. Experimental. The **...** button on a card opens its menu.
 - **Queue:** waiting, printing now and completed sheets.
 - **Booth:** which booth this Mac prints for. The dot is green when it is connected.
 - **Pause** and **Open incoming folder:** stop sending sheets, or drop images in to print.
 - **Where's my print?** finds one guest's sheet.
-- **Sheets:** under the queue. **Background** is the colour or picture behind the stickers. **Cutting** (folded away) has three switches, see below.
+- **Sheets:** under the queue. **Background** is the colour or picture behind the stickers. Sharp corners of every sticker get a short extra cut, so pointy stickers peel cleanly.
 - **Ask:** the helper, top right.
 - **Wall:** the sticker wall for a screen at the booth (see below). The folder icon beside it opens your own starter sheets, and the copy icon copies the wall's link.
 - **Footer:** pinned to the bottom with a just-for-fun game above it. Click the sticker to play.
 
 ## Cuts land beside the print: align the cutter
 
-If the blade cuts beside the stickers instead of round them, align the cutter. It takes one sheet.
+If the blade cuts beside the stickers instead of round them, align the cutter.
 
 <img src="images/guide/printer-menu.png" alt="The menu of a printer card, open, with Align cutter, Restore factory alignment and Printer details" width="420">
 
 *On the printer's card, press the ... button, then Align cutter.*
 
-1. **Print the sheet.** Press **Print alignment sheet (1 sheet)**. The printer prints one test sheet with rulers along its edges and cuts four lines near the corners, A, B, C and D.
+1. **Print the sheet.** Press **Print alignment sheet**. The printer prints one test sheet with rulers along its edges and cuts four long lines that cross at the corners, A, B, C and D.
 2. **Read the corners.** Take the sheet out. For each corner, find where the cut lines meet the rulers and type the numbers in millimetres. X is across, on the top or bottom ruler. Y is down, on the left or right ruler. The boxes start at the expected values (5 and 75 across, 5 and 155 down), so change only the ones that differ. Press **Apply alignment**. The printer remembers the fix.
 
 <img src="images/guide/align-readings.png" alt="The Align cutter window at step 2, Read the corners: the alignment sheet picture and boxes for corners A, B, C and D" width="560">
 
 *Step 2: type where each cut corner meets the rulers.*
 
-3. **Check (optional).** Press **Check on the same sheet**. Put the same sheet back in the tray, alone. The printer only cuts it again, and no new sheet is used. The new corners should sit on 5, 75, 5 and 155. Six small stars are cut in the middle, the left column plain and the right column with the corner overcut. Peel one from each column to compare.
+3. **Check (optional).** Press **Check on the same sheet**. Put the same sheet back in the tray, alone, printed side up. The printer only cuts it again. The new corners should sit on 5, 75, 5 and 155.
 
 <img src="images/guide/align-check.png" alt="The Align cutter window at step 3, after the check: the new corner cuts should sit on 5, 75, 5 and 155" width="560">
 
 *Step 3: the check says where the new corners should sit.*
 
-Cuts look worse? Press **...** on the card, then **Restore factory alignment**. It uses no paper.
-
-## The Cutting switches
-
-Open **Cutting**, under **Sheets**. The switches are off by default.
-
-- **Light blade pressure:** for thinner sheets. Leave it off for the official sheets.
-- **Corner overcut:** a short extra cut at sharp corners, so pointy stickers peel cleanly. Try it on one sheet first.
-- **Prefer USB:** use a USB cable instead of Bluetooth when a printer is plugged in. Experimental.
+Cuts look worse? Press **...** on the card, then **Restore factory alignment**.
 
 ## The sticker wall
 
@@ -125,7 +117,7 @@ the button on screen. Try "A printer says Offline", "Print a guest's sheet again
 - Do not switch off a printer while it is printing.
 - Never clear a fault you have not looked at.
 - Keep the Mac plugged in and awake.
-- Reprint or print again uses another sheet and another ribbon panel. It never happens by itself.
+- Reprint and print again never happen by themselves.
 - Paper and ribbon run out together, so change them together.
 - Guests' phones need the booth to have internet. Folder printing works offline.
 - Run one Mac per booth.
