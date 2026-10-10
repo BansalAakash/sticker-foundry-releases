@@ -320,6 +320,14 @@ Day report (bottom of the page) sums up a day: sheets and photos printed, where 
 
 Where: **Day report**
 
+### What changed (changelog)
+
+Asked as: changelog, what's new, whats new, release notes, what changed, new features
+
+Changelog (bottom of the page) lists every version, newest first, with what changed in each. After an update, a What's new list also opens by itself with everything since your old version.
+
+Where: **Changelog**
+
 ### The Sheets printed counter
 
 Asked as: sheets printed, counter, reset counter, count of printed, zero the count
