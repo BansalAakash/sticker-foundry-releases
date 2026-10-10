@@ -376,7 +376,7 @@ If the blade cuts beside the print, press the three dots on that printer's card,
 
 Steps:
 1. Press the three dots on the card, then Align cutter.
-2. Press Print test sheet.
+2. Put a sticker sheet in the tray, then press Print test sheet.
 3. Read where each cut line meets the ruler, inside the red ring. Change only boxes that differ.
 4. Press Apply, then Check on same sheet (optional).
 

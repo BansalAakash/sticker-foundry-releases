@@ -68,7 +68,7 @@ If the blade cuts beside the stickers instead of round them, align the cutter.
 
 *On the printer's card, press the ... button, then Align cutter.*
 
-1. **Print.** Press **Print test sheet**. The printer prints one test sheet with rulers along its edges. It also cuts four long lines that meet at the corners A, B, C and D.
+1. **Print.** Put a sticker sheet in the tray and press **Print test sheet**. The printer prints one test sheet with rulers along its edges. It also cuts four long lines that meet at the corners A, B, C and D.
 2. **Read.** Take the sheet out. At each corner, read the ruler where the red ring is. Type the number in the box. Change only the boxes that differ. Press **Apply**. The printer saves the fix.
 
 <img src="images/guide/align-readings.png" alt="The Align cutter window at step 2, Read: a picture of each corner with its red ring, and X and Y boxes for corners A, B, C and D" width="560">
